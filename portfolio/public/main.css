@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+ /* HOME */
+.main-home {
+    background-color: #F9F9F9;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-home h1 {
+    color: #011627;
+    text-align: center;
+    font-size: 2000%;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.main-home h3 {
+    color: #011627;
+    margin-top: 0;
+    text-align: center;
+}
+
+h1 span{
+    display: inline-block;
+    transform: scaleX(-1);
+    filter: FlipH; /* IE 6-7-8 */
+}
+
+
+.uk-position-relative {
+    align-self: flex-start;
+}
+
+
+.uk-navbar-nav li a{
+    color: #011627;
+}
+
+.home-contact {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    align-self: center;
+    bottom: 0;
+    left: 0;
+}
+/* ABOUT */
