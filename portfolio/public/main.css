@@ -13,6 +13,10 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+
 }
 
 .main-home h1 {
@@ -46,11 +50,55 @@ h1 span{
 }
 
 .home-contact {
-    width: 500px;
+    width: 100%;
     height: 100px;
     position: absolute;
-    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     bottom: 0;
     left: 0;
 }
+
+.home-contact a{
+    margin: 0 20px;
+}
+
 /* ABOUT */
+
+/* FOOTER */
+.footer {
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5em;
+    background-color: #F9F9F9;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    width: 50%;
+}
+
+.footer-left {
+    justify-content: flex-start;
+}
+
+.footer-right {
+    justify-content: flex-end;
+}
+
+
+.footer p {
+    margin-left: 3em;
+    color: #011627;
+    margin-bottom: 0;
+}
+
+.footer-right div{
+    margin-right: 3em;
+}
