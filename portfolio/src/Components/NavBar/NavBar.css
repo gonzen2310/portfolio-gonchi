@@ -1,0 +1,11 @@
+#navbarNav {
+    justify-content: center;
+}
+
+.navbar-light .navbar-toggler {
+    margin: 0 auto;
+}
+
+.navbar-nav li{
+    margin: 0 auto;
+}
