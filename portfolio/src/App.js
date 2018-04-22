@@ -5,7 +5,7 @@ import './App.css';
 // Import Sections
 import Home from './Sections/Home/Home';
 import About from './Sections/About/About';
-// import Skills from './Sections/Skills';
+import Skills from './Sections/Skills/Skills';
 // import Experience from './Sections/Experience';
 // import Projects from './Sections/Projects';
 // import Contact from './Sections/Contact';
@@ -17,7 +17,7 @@ class App extends Component {
           <div className="App-container">
               <Home />
               <About />
-              {/*<Skills />*/}
+              <Skills />
               {/*<Experience />*/}
               {/*<Projects />*/}
               {/*<Contact />*/}
