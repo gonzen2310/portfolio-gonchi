@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 // Import Sections
-// import Home from './Sections/Home';
+import Home from './Sections/Home/Home';
 // import About from './Sections/About';
 // import Skills from './Sections/Skills';
 // import Experience from './Sections/Experience';
@@ -15,7 +15,7 @@ class App extends Component {
   render() {
       return (
           <div className="App-container">
-              {/*<Home />*/}
+              <Home />
               {/*<About />*/}
               {/*<Skills />*/}
               {/*<Experience />*/}
