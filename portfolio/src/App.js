@@ -4,7 +4,7 @@ import './App.css';
 
 // Import Sections
 import Home from './Sections/Home/Home';
-// import About from './Sections/About';
+import About from './Sections/About/About';
 // import Skills from './Sections/Skills';
 // import Experience from './Sections/Experience';
 // import Projects from './Sections/Projects';
@@ -16,7 +16,7 @@ class App extends Component {
       return (
           <div className="App-container">
               <Home />
-              {/*<About />*/}
+              <About />
               {/*<Skills />*/}
               {/*<Experience />*/}
               {/*<Projects />*/}

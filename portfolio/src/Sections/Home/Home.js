@@ -11,9 +11,17 @@ const Home = () => {
     return (
         <div id={'App-Home'}>
             <NavBar />
-            <Logo />
-            <Title />
-            <Contact />
+            <div className={'row'}>
+                <div className={'col-4'}>
+                    <Logo/>
+                </div>
+                <div className={'col-4'}>
+                    <Title />
+                </div>
+                <div className={'col-4'}>
+                    <Contact/>
+                </div>
+            </div>
         </div>
     );
 };
