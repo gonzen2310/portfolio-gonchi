@@ -1,0 +1,45 @@
+.home-component {
+    font-family: Omnes, serif;
+    display: grid;
+    grid-column: 2/3;
+    min-height: 100vh;
+}
+
+.home-component--top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-component--main {
+    display: grid;
+    grid-row-gap: var(--grid-gap);
+    grid-template-columns: repeat(12,1fr);
+    margin-bottom: 2.85rem;
+    grid-column-gap: var(--grid-gap);
+}
+
+.home-component div h1 {
+    font-weight: bold;
+    font-size: 120px;
+    margin: auto;
+}
+
+.home-component--svg {
+    width: 40px;
+}
+
+.home-component--main-text {
+    grid-column: 1/5;
+}
+
+.home-component--main-images {
+    grid-column: 7/11;
+}
+
+.home-component--main-contact {
+    grid-column: 12;
+    display: flex;
+    flex-direction: column;
+}
+
+
