@@ -20,7 +20,7 @@ const Home = () => {
             <div className={'home-component--main'}>
                 <div className={'home-component--main-text'}>
                     <h3>Hi, I'm</h3>
-                    <h1>GONCHI</h1>
+                    <h1>Gonchi</h1>
                     <h3>Web & android developer <br/> and UI/UX designer</h3>
                 </div>
                 <div className={'home-component--main-images'}>
