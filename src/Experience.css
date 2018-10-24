@@ -1,0 +1,13 @@
+.experience-component {
+    font-family: Omnes, serif;
+    display: grid;
+    grid-column: 2/3;
+}
+
+.experience-component .experience-section h1 {
+    text-align: center;
+}
+.experience-component .experience-section h1::before {
+    content: "02";
+    font-size: 200px;
+}

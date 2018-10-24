@@ -1,13 +1,13 @@
 import React from 'react';
 import './Home.css';
-import mainImg from './main_img.png';
-import burgerIc from './burger_ic.png';
-import logoIc from './logo_ic.png';
-import gmail from './gmail_ic.svg';
-import linkedin from './linkedin_ic.svg';
-import codepen from './codepen_ic.svg';
-import github from './github_ic.svg';
-import spotify from './spotify_ic.svg';
+import mainImg from './assets/main_img.png';
+import burgerIc from './assets/burger_ic.png';
+import logoIc from './assets/logo_ic.png';
+import gmail from './assets/gmail_ic.svg';
+import linkedin from './assets/linkedin_ic.svg';
+import codepen from './assets/codepen_ic.svg';
+import github from './assets/github_ic.svg';
+import spotify from './assets/spotify_ic.svg';
 
 
 const Home = () => {
@@ -27,11 +27,11 @@ const Home = () => {
                     <img id={'home-mainimg'} src={mainImg} alt="Home gonchi"/>
                 </div>
                 <div className={'home-component--main-contact'} >
-                    <img className={'home-component--svg'} src={gmail} alt="gmail icon"/>
-                    <img className={'home-component--svg'} src={github} alt="github icon"/>
-                    <img className={'home-component--svg'} src={linkedin} alt="linkedin icon"/>
-                    <img className={'home-component--svg'} src={codepen} alt="codepen icon"/>
-                    <img className={'home-component--svg'} src={spotify} alt="spotify icon"/>
+                    <img id={'svg-gmail'} className={'home-component--svg'} src={gmail} alt="gmail icon"/>
+                    <img id={'svg-github'} className={'home-component--svg'} src={github} alt="github icon"/>
+                    <img id={'svg-linkedin'} className={'home-component--svg'} src={linkedin} alt="linkedin icon"/>
+                    <img id={'svg-codepen'} className={'home-component--svg'} src={codepen} alt="codepen icon"/>
+                    <img id={'svg-spotify'} className={'home-component--svg'} src={spotify} alt="spotify icon"/>
                 </div>
             </div>
 

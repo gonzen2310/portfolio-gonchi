@@ -44,6 +44,7 @@
 .home-component--svg {
     width: 40px;
     margin: 10px 0;
+    align-self: flex-end;
 }
 
 .home-component--main-text {
@@ -59,5 +60,4 @@
     display: flex;
     flex-direction: column;
 }
-
 

@@ -1,0 +1,42 @@
+.about-component {
+    font-family: Omnes, serif;
+    display: grid;
+    grid-column: 2/3;
+}
+
+.about-component .about-section h1 {
+    text-align: center;
+}
+.about-component .about-section h1::before {
+    content: "01";
+    font-size: 200px;
+}
+
+.about-component .about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1fr;
+}
+
+.about-component .about-content p {
+    grid-column: 2;
+    text-align: justify;
+    line-height: 30px;
+}
+.about-component .about-content p div {
+    display: flex;
+    justify-content: center;
+}
+
+.about-component button {
+    background: rgb(136,28,243);
+    background: linear-gradient(60deg, rgba(136,28,243,1) 0%, rgba(160,0,239,1) 100%);
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 35px;
+    box-sizing: content-box;
+    -webkit-box-shadow: 0px 7px 34px -6px rgba(120,120,120,1);
+    -moz-box-shadow: 0px 7px 34px -6px rgba(120,120,120,1);
+    box-shadow: 0px 7px 34px -6px rgba(120,120,120,1);
+}
