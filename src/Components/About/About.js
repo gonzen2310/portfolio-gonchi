@@ -3,6 +3,7 @@ import Title from '../Title/Title';
 
 import profileImage from '../../assets/ic_profile_photo.svg';
 import './About.css';
+import Button from "../Button/Button";
 
 const About = () => {
     return(
@@ -22,6 +23,7 @@ const About = () => {
                         Check out our dope projects here Currently I am the president and co-founder of the PSU Coders club, a
                         club focused on developing software to improve student's life on campus. Check out our dope projects here
                     </p>
+                    <Button title = 'resume'/>
                 </div>
             </div>
         </div>

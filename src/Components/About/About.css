@@ -16,8 +16,12 @@
 }
 
 .about-component .about-component--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .about-component .about-component--content p {
     text-align: justify;
+    line-height: 25px;
 }
