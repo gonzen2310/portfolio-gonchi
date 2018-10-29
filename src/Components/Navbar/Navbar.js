@@ -6,8 +6,8 @@ import burgerIc from '../../assets/burger_ic.svg';
 const Navbar = () => {
     return(
         <nav className={'navbar-component'}>
-            <img src={navLogo} alt=""/>
-            <img src={burgerIc} alt=""/>
+            <img src={navLogo} alt="GR logo"/>
+            <img src={burgerIc} alt="Burger icon"/>
         </nav>
     );
 };

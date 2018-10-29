@@ -6,4 +6,5 @@
 
 .navbar-component img {
     height: 20px;
+    cursor: pointer;
 }
