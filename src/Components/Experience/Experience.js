@@ -13,12 +13,12 @@ class Experience extends React.Component{
                 date: "September '18 - present",
                 place: "Plattsburgh, NY",
                 achievements: [
-                    "GONZALO ABCD",
-                    "HECTOR ABCD",
-                    "GAURAV ABC"
+                    "Supervise and collaborate with an agile team of 8 developers to build, test and deploy high quality apps to help hundreds of students on campus",
+                    "Conduct weekly scrum meetings and manage team by assigning tasks using Asana to track progress and Slack for communication",
+                    "Act as a lead developer and administrate GitHub repository for projects"
                 ],
                 skills: [
-                    "JavaScript", "Python"
+                    "JavaScript", "Kotlin", "HTML", "CSS", "Java", "React", "Android", "WebDev", "Agile", "Scrum", "PM", "Firebase", "Redux"
                 ]
             },
             {

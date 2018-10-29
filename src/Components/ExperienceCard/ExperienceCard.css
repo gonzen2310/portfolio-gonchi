@@ -1,6 +1,6 @@
 .experience-card-component {
     background-color: #FFFFFF;
-    border-radius: 0 50px 0 50px;
+    border-radius: 0 100px 0 100px;
     margin: 0 auto 4em;
     width: 80%;
     -webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.16);
@@ -21,17 +21,15 @@
 .experience-card-component .experience-card-component--info {
     display: flex;
     justify-content: space-between;
-}
-
-.experience-card-component .experience-card-component--info {
-    display: flex;
-    justify-content: space-between;
+    color: rgba(41,41,41, 0.5);
 }
 
 .experience-card-component--container ul {
     margin: 0.75em 0;
     padding: 0 1em;
     list-style: none;
+    font-size: 1.2em;
+    line-height: 25px;
 }
 
 .experience-card-component--container .experience-card-component--position__red li:before {
@@ -71,4 +69,22 @@
 
 .experience-card-component--container .experience-card-component--position__green {
     color: #039A0D;
+}
+
+.experience-card-component--skills {
+    margin: 1em 0;
+}
+
+.experience-card-component--skills span {
+    border: gold 2px solid;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+
+.experience-card-component--skills span:hover {
+    background-color: gold;
+    cursor: pointer;
 }

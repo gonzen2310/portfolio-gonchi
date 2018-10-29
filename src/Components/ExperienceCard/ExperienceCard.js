@@ -4,8 +4,6 @@ import './ExperienceCard.css';
 const ExperienceCard = (props) => {
     const {experiences} = props;
 
-
-
     const experienceList = experiences.map(experience => {
         const achievementList = experience.achievements.map(achievement => {
             return(
