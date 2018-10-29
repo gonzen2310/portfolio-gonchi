@@ -1,0 +1,11 @@
+.experience-component {
+    display: grid;
+    grid-column: 1/4;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: #F9FBFD;
+    grid-template-columns: minmax(10vw,1fr) minmax(0,var(--content-max-width)) minmax(10vw,1fr);
+}
+.experience-component .experience-component--content {
+    grid-column: 2;
+}

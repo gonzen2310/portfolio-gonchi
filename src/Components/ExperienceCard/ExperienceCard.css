@@ -1,0 +1,74 @@
+.experience-card-component {
+    background-color: #FFFFFF;
+    border-radius: 0 50px 0 50px;
+    margin: 0 auto 4em;
+    width: 80%;
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.16);
+}
+.experience-card-component--container {
+    padding: 3% 0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-card-component .experience-card-component--position {
+    font-weight: 500;
+}
+.experience-card-component .experience-card-component--info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-card-component .experience-card-component--info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-card-component--container ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+
+.experience-card-component--container .experience-card-component--position__red li:before {
+    content: "";
+    border-color: transparent #F50945;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+.experience-card-component--container .experience-card-component--position__green li:before {
+    content: "";
+    border-color: transparent #039A0D;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+
+.experience-card-component--container .experience-card-component--position__red {
+    color: #F50945;
+}
+
+.experience-card-component--container .experience-card-component--position__red li, .experience-card-component--container .experience-card-component--position__green li {
+    color: black;
+}
+
+.experience-card-component--container .experience-card-component--position__green {
+    color: #039A0D;
+}
