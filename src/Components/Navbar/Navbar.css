@@ -1,0 +1,9 @@
+.navbar-component {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 2;
+}
+
+.navbar-component img {
+    height: 20px;
+}

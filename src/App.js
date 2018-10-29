@@ -4,16 +4,12 @@ import './App.css';
 
 // Import components
 import Home from './Components/Home/Home';
-import About from "./Components/About/About";
-import Experience from "./Experience";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
                 <Home/>
-                <About/>
-                <Experience/>
             </div>
         );
     }
