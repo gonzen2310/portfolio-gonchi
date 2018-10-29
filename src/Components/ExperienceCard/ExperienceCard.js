@@ -3,7 +3,22 @@ import './ExperienceCard.css';
 
 const ExperienceCard = (props) => {
     const {experiences} = props;
+
+
+
     const experienceList = experiences.map(experience => {
+        const achievementList = experience.achievements.map(achievement => {
+            return(
+                <li>{achievement}</li>
+            );
+        });
+
+        const skillsList = experience.skills.map( skill => {
+            return(
+                <span>{skill}</span>
+            )
+        });
+
        return(
            <div>
                <div className={'experience-card-component'}>
@@ -14,16 +29,10 @@ const ExperienceCard = (props) => {
                            <h3 className={'experience-card-component--info__place'}>{experience.place}</h3>
                        </section>
                        <ul className={experience.style}>
-                           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                               ut labore et dolore magna aliqua. Ut enim ad minim </li>
-                           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                               ut labore et dolore magna aliqua. Ut enim ad minim </li>
-                           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                               ut labore et dolore magna aliqua. Ut enim ad minim </li>
+                           {achievementList}
                        </ul>
                        <section className={'experience-card-component--skills'}>
-                           <span>JavaScript</span>
-                           <span>Python</span>
+                           {skillsList}
                        </section>
                    </div>
                </div>

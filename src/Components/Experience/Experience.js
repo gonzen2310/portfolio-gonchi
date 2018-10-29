@@ -4,8 +4,8 @@ import Title from "../Title/Title";
 import ExperienceCard from "../ExperienceCard/ExperienceCard";
 
 class Experience extends React.Component{
-    state = {
-        experiences: [
+    render() {
+        const experiences = [
             {
                 position: "PSU Coders Club President",
                 company: "@ SUNY Plattsburgh",
@@ -13,9 +13,9 @@ class Experience extends React.Component{
                 date: "September '18 - present",
                 place: "Plattsburgh, NY",
                 achievements: [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+                    "GONZALO ABCD",
+                    "HECTOR ABCD",
+                    "GAURAV ABC"
                 ],
                 skills: [
                     "JavaScript", "Python"
@@ -33,19 +33,16 @@ class Experience extends React.Component{
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
                 ],
                 skills: [
-                    "JavaScript", "Python"
+                    "Java", "Ruby"
                 ]
             }
+        ];
 
-        ]
-    };
-
-    render() {
         return(
             <div className={'experience-component'}>
                 <div className={'experience-component--content'}>
                     <Title num = '02' section= 'Experience'/>
-                    <ExperienceCard experiences={this.state.experiences}/>
+                    <ExperienceCard experiences={experiences}/>
                 </div>
             </div>
         );
