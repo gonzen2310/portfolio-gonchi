@@ -64,13 +64,20 @@
     align-items: center;
 }
 
-.project-card-component .project-card-component--description-more a {
+.project-card-component .project-card-component--description-more > a {
     border: #0582D5 1px solid;
     display: inline-block;
     padding: 0.5em 2em;
     border-radius: 5px;
     text-decoration: none;
-    color: #0582D5;}
+    color: #0582D5;
+    transition: all 0.5s;
+}
+
+.project-card-component .project-card-component--description-more > a:hover {
+    background-color: #0582D5;
+    color: #FFFFFF;
+}
 
 .project-card-component--description-more .project-card-component--description-more__img img {
     height: 30px;

@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './ProjectCard.css';
 import shutterImg from '../../assets/shuttler_img.svg';
 
 import visitImg from '../../assets/visit_ic.svg';
 import githubImg from '../../assets/github_ic.svg';
 
-class ProjectCard extends Component{
+class ProjectCard extends React.Component{
     render() {
         return(
             <div className="project-card-component">
@@ -23,8 +23,8 @@ class ProjectCard extends Component{
                     <section className={'project-card-component--description-more'}>
                         <a href="">MORE</a>
                         <div className={'project-card-component--description-more__img'}>
-                            <img src={githubImg} alt=""/>
-                            <img src={visitImg} alt=""/>
+                            <a href="https://github.com/PSUCoders/Shuttler"><img src={githubImg} alt=""/></a>
+                            <a href="https://github.com/PSUCoders/Shuttler"><img src={visitImg} alt=""/></a>
                         </div>
                     </section>
                 </div>

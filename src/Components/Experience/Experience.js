@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './Experience.css';
 import Title from "../Title/Title";
 import ExperienceCard from "../ExperienceCard/ExperienceCard";

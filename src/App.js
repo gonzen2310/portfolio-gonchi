@@ -7,6 +7,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Experience from "./Components/Experience/Experience";
 import Projects from "./Components/Projects/Projects";
+import Miscellaneous from "./Components/Miscellaneous/Miscellaneous";
 
 class App extends Component {
     render() {
@@ -16,6 +17,7 @@ class App extends Component {
                 <About/>
                 <Experience/>
                 <Projects/>
+                <Miscellaneous/>
             </div>
         );
     }

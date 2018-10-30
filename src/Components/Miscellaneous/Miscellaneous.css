@@ -1,0 +1,26 @@
+.miscellaneous-component {
+    display: grid;
+    grid-column: 1/4;
+    box-sizing: border-box;
+    background: url("../../assets/miscellaneous_bg.svg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    grid-template-columns: minmax(10vw,1fr) minmax(0,var(--content-max-width)) minmax(10vw,1fr);
+    min-height: 100vh;
+}
+
+.miscellaneous-component .miscellaneous-component--content {
+    grid-column: 2;
+}
+
+.miscellaneous-component .miscellaneous-component--content p{
+    text-align: center;
+}
+
+.miscellaneous-component .miscellaneous-component--image {
+    margin: 5em auto;
+    width: 20vw;
+    display: block;
+}

@@ -11,7 +11,7 @@ const Projects = () => {
             <p> Here are my feature projects that I've developed throughout <br/> the past years. If you want to see
                 all my projects click here</p>
             <ProjectCard/>
-            <Button title='More project'/>
+            <Button title='More projects'/>
         </div>
     )
 };
