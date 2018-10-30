@@ -9,6 +9,7 @@ import Experience from "./Components/Experience/Experience";
 import Projects from "./Components/Projects/Projects";
 import Miscellaneous from "./Components/Miscellaneous/Miscellaneous";
 import Touch from "./Components/Touch/Touch";
+import Footer from "./Components/Footer/Footer";
 
 class App extends Component {
     render() {
@@ -20,6 +21,7 @@ class App extends Component {
                 <Projects/>
                 <Miscellaneous/>
                 <Touch/>
+                <Footer/>
             </div>
         );
     }
