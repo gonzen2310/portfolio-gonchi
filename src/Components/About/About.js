@@ -11,7 +11,7 @@ const About = () => {
             <div className={'about-component--container'}>
                 <img className={'about-component--image'} src={profileImage} alt=""/>
                 <div className={'about-component--content'}>
-                    <Title num = '01' section ='About me'/>
+                    <Title num = '01.' section ='About me'/>
                     <p>
                         Hi there,
                         I am Gonzalo a student at SUNY Plattsburgh. My passion is to build high quality software product that

@@ -1,8 +1,8 @@
-.about-component {
-    grid-column: 2/3;
+.touch-component {
+    grid-column: 2;
 }
 
-.about-component .about-component--container {
+.touch-component .touch-component--container {
     position: relative;
     grid-column: 2/3;
     display: grid;
@@ -10,19 +10,19 @@
     grid-column-gap: 10em;
 }
 
-.about-component .about-component--image {
+.touch-component .touch-component--image {
     align-self: center;
     justify-self: center;
     width: 100%;
 }
 
-.about-component .about-component--content {
+.touch-component .touch-component--content {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.about-component .about-component--content p {
+.touch-component .touch-component--content p {
     text-align: justify;
     line-height: 25px;
 }

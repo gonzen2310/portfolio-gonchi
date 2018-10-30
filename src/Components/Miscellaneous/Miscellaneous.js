@@ -8,7 +8,7 @@ const Miscellaneous = () => {
     return(
         <div className={'miscellaneous-component'}>
             <div className={'miscellaneous-component--content'}>
-                <Title num = '05' section= 'Miscellaneous'/>
+                <Title num = '05.' section= 'Miscellaneous'/>
                 <p>I am Gonzalo a student at SUNY Plattsburgh. My passion is to build high quality <br/>
                     software product that My passion is to build high quality software product that</p>
 

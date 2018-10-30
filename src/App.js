@@ -8,6 +8,7 @@ import About from './Components/About/About';
 import Experience from "./Components/Experience/Experience";
 import Projects from "./Components/Projects/Projects";
 import Miscellaneous from "./Components/Miscellaneous/Miscellaneous";
+import Touch from "./Components/Touch/Touch";
 
 class App extends Component {
     render() {
@@ -18,6 +19,7 @@ class App extends Component {
                 <Experience/>
                 <Projects/>
                 <Miscellaneous/>
+                <Touch/>
             </div>
         );
     }

@@ -7,7 +7,7 @@ import Button from "../Button/Button";
 const Projects = () => {
     return(
         <div className={'projects-component'}>
-            <Title num = '04' section= 'Projects'/>
+            <Title num = '04.' section= 'Projects'/>
             <p> Here are my feature projects that I've developed throughout <br/> the past years. If you want to see
                 all my projects click here</p>
             <ProjectCard/>
