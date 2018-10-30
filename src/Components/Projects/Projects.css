@@ -1,0 +1,7 @@
+.projects-component {
+    grid-column: 2;
+}
+
+.projects-component p {
+    text-align: center;
+}
