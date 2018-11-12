@@ -18,7 +18,7 @@ const ExperienceCard = (props) => {
         });
 
        return(
-           <div>
+           <div key={experience.id}>
                <div className={'experience-card-component'}>
                    <div className={'experience-card-component--container'}>
                        <h1 className={'experience-card-component--position'}>{experience.position} <span className={experience.style}>{experience.company}</span></h1>

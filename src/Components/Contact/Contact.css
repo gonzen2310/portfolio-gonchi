@@ -5,4 +5,10 @@
 .contact-component img {
     height: 30px;
     margin-right: 25px;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.contact-component img .gmail_ic:hover {
+
 }

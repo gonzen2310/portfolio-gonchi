@@ -7,6 +7,7 @@ class Experience extends React.Component{
     render() {
         const experiences = [
             {
+                id: 0,
                 position: "PSU Coders Club President",
                 company: "@ SUNY Plattsburgh",
                 style: "experience-card-component--position__red",
@@ -22,6 +23,7 @@ class Experience extends React.Component{
                 ]
             },
             {
+                id: 1,
                 position: "Digital Media Intern",
                 company: "@ Interbank",
                 style: "experience-card-component--position__green",
