@@ -41,3 +41,40 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+@media only screen and (max-width: 1300px) {
+    .home-component .home-component--text h1{
+        font-size: 9rem;
+    }
+
+    .home-component .home-component--image {
+        width: 40vw;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .home-component .home-component--image {
+        width: 60vw;
+        float: none;
+
+    }
+
+    .home-component--content section {
+        display: none;
+    }
+
+    .home-component .home-component--image, .home-component .home-component--text  {
+        top: 0;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    .home-component--content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
