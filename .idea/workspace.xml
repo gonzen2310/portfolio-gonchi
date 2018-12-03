@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f03e435c-f297-4959-9f76-f3bc9ca40e34" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects/Projects.js___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProjectsCard/ProjectCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectsCard/ProjectCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProjectsCard/ProjectCard.css___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProjectsCard/ProjectCard.js___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Experience/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Experience/Experience.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,70 +14,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1800092697">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="62" />
-          <entry key="html" value="5" />
-          <entry key="ico" value="1" />
-          <entry key="js" value="71" />
-          <entry key="js___jb_tmp___" value="1" />
-          <entry key="png" value="4" />
-          <entry key="svg" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="62" />
-          <entry key="HTML" value="5" />
-          <entry key="Image" value="5" />
-          <entry key="JavaScript" value="71" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SVG" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="ESLintLanguageService" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="4559" />
-          <entry key="html" value="52" />
-          <entry key="js" value="10571" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="4559" />
-          <entry key="HTML" value="52" />
-          <entry key="JavaScript" value="10571" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -97,11 +29,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="1680">
               <caret line="60" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Experience/Experience.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/About/About.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="18" column="66" lean-forward="true" selection-start-line="17" selection-start-column="65" selection-end-line="18" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -153,7 +103,6 @@
         <option value="$PROJECT_DIR$/src/Components/Miscellaneous/Miscellaneous.css" />
         <option value="$PROJECT_DIR$/src/Components/Title/Title.js" />
         <option value="$PROJECT_DIR$/src/Components/Miscellaneous/Miscellaneous.js" />
-        <option value="$PROJECT_DIR$/src/Components/About/About.js" />
         <option value="$PROJECT_DIR$/src/Components/About/About.css" />
         <option value="$PROJECT_DIR$/src/Components/Touch/Touch.css" />
         <option value="$PROJECT_DIR$/src/Components/Touch/Touch.js" />
@@ -162,30 +111,15 @@
         <option value="$PROJECT_DIR$/src/Components/Footer/Footer.css" />
         <option value="$PROJECT_DIR$/src/Components/Contact/Contact.js" />
         <option value="$PROJECT_DIR$/src/Components/Contact/Contact.css" />
-        <option value="$PROJECT_DIR$/src/Components/Experience/Experience.js" />
         <option value="$PROJECT_DIR$/src/Components/ExperienceCard/ExperienceCard.js" />
         <option value="$PROJECT_DIR$/src/Components/ProjectsCard/ProjectCard.js" />
         <option value="$PROJECT_DIR$/src/Components/Projects/Projects.js" />
         <option value="$PROJECT_DIR$/src/Components/ProjectsCard/ProjectCard.css" />
         <option value="$PROJECT_DIR$/src/Components/Home/Home.css" />
+        <option value="$PROJECT_DIR$/src/Components/Experience/Experience.js" />
+        <option value="$PROJECT_DIR$/src/Components/About/About.js" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
@@ -227,7 +161,21 @@
               <item name="portfolio-gonchi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="About" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-gonchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-gonchi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Button" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-gonchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-gonchi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Experience" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,11 +248,13 @@
       <workItem from="1541984971831" duration="6404000" />
       <workItem from="1541996850419" duration="15985000" />
       <workItem from="1542141538748" duration="2441000" />
+      <workItem from="1543594200206" duration="2930000" />
+      <workItem from="1543709764649" duration="975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136413000" />
+    <option name="totallyTimeSpent" value="140318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,9 +266,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12802951" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15279241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -332,7 +282,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50105375" side_tool="true" weight="0.32929516" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49894625" visible="true" weight="0.32929516" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49894625" weight="0.3188406" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -361,11 +311,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ExperienceCard.css" />
     <entry file="file://$PROJECT_DIR$/src/ExperienceCard.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.html" />
     <entry file="file://$PROJECT_DIR$/src/assets/ic_landing.svg">
@@ -493,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/About/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/About/About.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -573,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Experience/Experience.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Experience/Experience.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -616,6 +548,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -628,8 +563,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="1680">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Experience/Experience.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/About/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="18" column="66" lean-forward="true" selection-start-line="17" selection-start-column="65" selection-end-line="18" selection-end-column="66" />
         </state>
       </provider>
     </entry>
