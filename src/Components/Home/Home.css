@@ -16,6 +16,7 @@
 .home-component .home-component--text {
     display: inline-block;
     position: relative;
+    width: 40%;
 }
 
 .home-component .home-component--text h1{
@@ -30,7 +31,7 @@
 
 .home-component .home-component--image {
     float: right;
-    width: 35vw;
+    width: 45%;
     min-height: auto;
     position: relative;
 }
@@ -46,9 +47,12 @@
     .home-component .home-component--text h1{
         font-size: 9rem;
     }
+}
 
-    .home-component .home-component--image {
-        width: 40vw;
+
+@media only screen and (max-width: 1200px) {
+    .home-component .home-component--text h1{
+        font-size: 6.5rem;
     }
 }
 
@@ -56,14 +60,22 @@
 @media only screen and (max-width: 800px) {
 
     .home-component .home-component--image {
-        width: 60vw;
+        width: 80%;
         float: none;
-
     }
 
     .home-component--content section {
         display: none;
     }
+
+    .home-component .home-component--text h1{
+        font-size: 9rem;
+    }
+
+    .home-component .home-component--text  {
+        width: 100%;
+    }
+
 
     .home-component .home-component--image, .home-component .home-component--text  {
         top: 0;
@@ -76,5 +88,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .home-component .home-component--text h1{
+        font-size: 5.5rem;
     }
 }
