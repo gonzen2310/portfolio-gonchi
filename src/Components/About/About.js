@@ -22,14 +22,7 @@ const About = () => {
                         world problems and this is why I founded Coding Hub, a club focused on improving the learning
                         experience and life quality of students on campus through convenient and sophisticated software
                         applications. Being part of X would expand and improve my skills to keep translating real
-                        problems into viable solutions.
-
-                        I am Gonzalo a student at SUNY Plattsburgh. My passion is to build high quality software product that
-                        Currently I am the president and co-founder of the PSU Coders club, a club focused on developing software to
-                        improve student's life on campus. Check out our dope projects here Currently I am the president and co-founder
-                        of the PSU Coders club, a club focused on developing software to improve student's life on campus. Check out
-                        our dope projects here Currently I am the president and co-founder of the PSU Coders club, a club focused on
-                        developing software to improve student's life on campus. Check out our dope projects here. life on campus.
+                        problems into viable solutions
                     </p>
                     <Button title = 'resume'/>
                 </div>

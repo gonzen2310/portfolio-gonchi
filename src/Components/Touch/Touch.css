@@ -7,7 +7,7 @@
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 2fr 3fr;
-    grid-column-gap: 10em;
+    grid-column-gap: 3em;
 }
 
 .touch-component .touch-component--image {
@@ -25,4 +25,19 @@
 .touch-component .touch-component--content p {
     text-align: justify;
     line-height: 25px;
+}
+
+@media only screen and (max-width: 960px) {
+    .touch-component .touch-component--container {
+        grid-template-columns: 1fr;
+    }
+    .touch-component .touch-component--image {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .touch-component .touch-component--image {
+        width: 100%;
+    }
 }
