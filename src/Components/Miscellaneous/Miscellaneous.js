@@ -11,7 +11,6 @@ const Miscellaneous = () => {
                 <Title num = '05.' section= 'Miscellaneous'/>
                 <p>I am Gonzalo a student at SUNY Plattsburgh. My passion is to build high quality <br/>
                     software product that My passion is to build high quality software product that</p>
-
                 <img className={'miscellaneous-component--image'} src={ideasImg} alt=""/>
                 <Button title = 'Know more about me'/>
             </div>

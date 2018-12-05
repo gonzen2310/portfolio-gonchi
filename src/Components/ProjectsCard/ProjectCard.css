@@ -104,6 +104,46 @@
     cursor: pointer;
 }
 
-.project-card-component--description-more .project-card-component--description-more__img img:first-child {
+.project-card-component--description-more .project-card-component--description-more__img  #ic_github{
     margin-right: 1.5em;
+}
+
+@media only screen and (max-width: 900px) {
+    .project-card-component nav {
+        flex-direction: row;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .project-card-component {
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .project-card-component .project-card-component--nav div {
+        box-sizing: border-box;
+        padding: 25px;
+    }
+
+    .project-card-component .project-card-component--image__one ,
+    .project-card-component .project-card-component--image__two ,
+    .project-card-component .project-card-component--image__three {
+        border-radius: 0 0 10px 10px;
+        height: 300px;
+    }
+
+    .project-card-component .project-card-component--image__one img,
+    .project-card-component .project-card-component--image__two img,
+    .project-card-component .project-card-component--image__three img{
+        width: 95%;
+    }
+
+    .project-card-component .project-card-component--description {
+        width: 85%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
 }

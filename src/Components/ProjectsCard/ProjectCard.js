@@ -28,12 +28,10 @@ class ProjectCard extends React.Component{
                 console.log("CLICK FIRST");
                 break;
             case '02':
-                title = 'Cardinal Tutor';
+                title = 'Tutoring Hub';
                 description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                     'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                    'ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in' +
-                    ' voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat ' +
-                    'non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+                    'ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in'
                 background = 'project-card-component--image__two';
                 option2.classList.add('project-card-component--nav--checked');
                 option1.classList.remove('project-card-component--nav--checked');
@@ -72,7 +70,7 @@ class ProjectCard extends React.Component{
                     <section className={'project-card-component--description-more'}>
                         <a href="#">MORE</a>
                         <div className={'project-card-component--description-more__img'}>
-                            <a href="https://github.com/PSUCoders/Shuttler"><img src={githubImg} alt=""/></a>
+                            <a href="https://github.com/PSUCoders/Shuttler"><img id={'ic_github'} src={githubImg} alt=""/></a>
                             <a href="https://github.com/PSUCoders/Shuttler"><img src={visitImg} alt=""/></a>
                         </div>
                     </section>
