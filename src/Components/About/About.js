@@ -12,18 +12,15 @@ const About = () => {
                 <img className={'about-component--image'} src={profileImage} alt=""/>
                 <div className={'about-component--content'}>
                     <Title num = '01.' section ='About me'/>
-                    <p>
-                        Hi there,
-                        I'm Gonzalo Reyes, a junior student majoring in Computer Science program at SUNY Plattsburgh.
-                        My passion is to build cool web and android applications using high quality software product and
-                        My passion is to work and collaborate with
-                        highly talented people to make products that would make an immediate impact using different and
-                        the latest technologies. I firmly believe that software is meant to help people and solve real
-                        world problems and this is why I founded Coding Hub, a club focused on improving the learning
-                        experience and life quality of students on campus through convenient and sophisticated software
-                        applications. Being part of X would expand and improve my skills to keep translating real
-                        problems into viable solutions
-                    </p>
+                    <div>
+                        <p>
+                            Hi there!,
+                            I'm Gonzalo Reyes, a computer science enthusiast working towards improvement of the learning
+                            experience and life quality of students at SUNY Plattsburgh through convenient and
+                            sophisticated software applications. I firmly believe that software is meant to help people and
+                            solve real world problems and this is why I founded <span><a href={"https://www.coding-hub.com"}>Coding Hub</a></span>
+                        </p>
+                    </div>
                     <Button title = 'resume'/>
                 </div>
             </div>

@@ -4,17 +4,23 @@ import './Projects.css';
 import ProjectCard from "../ProjectsCard/ProjectCard";
 import Button from "../Button/Button";
 
+import shutterImg from '../../assets/shuttler_img.svg';
+
+
 class Projects extends React.Component{
     state = {
         title: 'Shuttler',
-        description: 'Currently I am the president and co-founder of the PSU Coders club, a club focused on ' +
-            'developing to Currently I am the president and co-founder of the PSU Coders club, a club ' +
-            'focused on developing to Currently I am the president and co-founder of the PSU Coders club, a club\n' +
-            'focused on developing to',
-        background: 'project-card-component--image__one'
+        description: 'Shuttler is a mobile application to help students track the shuttler at SUNY Plattsburgh' +
+            'so they can see where the shuttle is at any time.',
+        background: 'project-card-component--image__one',
+        imageBg: shutterImg
     };
 
-    updateText1 = (title, description, background) => {this.setState({ title, description, background })};
+    updateProject = (title, description, background, imageBg) => {
+        this.setState({
+            title, description, background, imageBg
+        })
+    };
 
     render() {
         return(
@@ -22,7 +28,12 @@ class Projects extends React.Component{
                 <Title num = '04.' section= 'Projects'/>
                 <p> Here are my feature projects that I've developed throughout <br/> the past years. If you want to see
                     all my projects click here</p>
-                <ProjectCard background = {this.state.background} title={this.state.title} description={this.state.description} updateProject={this.updateText1}/>
+                <ProjectCard
+                    background = {this.state.background}
+                    title={this.state.title}
+                    description={this.state.description}
+                    imageBg = {this.state.imageBg}
+                    updateProject={this.updateProject}/>
                 <Button title='More projects'/>
             </div>
         )

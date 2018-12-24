@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProjectCard.css';
 import shutterImg from '../../assets/shuttler_img.svg';
+import tutoringImg from '../../assets/tutoring-hub_img.svg';
 import visitImg from '../../assets/visit_ic.svg';
 import githubImg from '../../assets/github_ic.svg';
 
@@ -9,6 +10,7 @@ class ProjectCard extends React.Component{
         let title;
         let description;
         let background;
+        let imageBg;
         const option1 = document.querySelector("#first-project");
         const option2 = document.querySelector("#second-project");
         const option3 = document.querySelector("#third-project");
@@ -16,40 +18,36 @@ class ProjectCard extends React.Component{
         switch (e.target.innerHTML) {
             case '01':
                 title = 'Shuttler';
-                description = 'Currently I am the president and co-founder of the PSU Coders club, a club focused on ' +
-                    'developing to Currently I am the president and co-founder of the PSU Coders club, a club' +
-                    'focused on developing to Currently I am the president and co-founder of the PSU Coders club, a club' +
-                    'focused on developing to';
+                description = 'Shuttler is a mobile application to help students track the shuttler at SUNY Plattsburgh' +
+                    'so they can see where the shuttle is at any time.';
                 background = 'project-card-component--image__one';
+                imageBg = shutterImg;
                 option1.classList.add('project-card-component--nav--checked');
                 option2.classList.remove('project-card-component--nav--checked');
                 option3.classList.remove('project-card-component--nav--checked');
-                this.props.updateProject(title, description, background);
-                console.log("CLICK FIRST");
+                this.props.updateProject(title, description, background, imageBg);
                 break;
             case '02':
                 title = 'Tutoring Hub';
-                description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                    'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                    'ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in'
+                description = 'Tutoring Hub is a responsive website that allows students rate the tutors at the Learning Center' +
+                    'so they can choose the best tutor for them';
                 background = 'project-card-component--image__two';
+                imageBg = tutoringImg;
                 option2.classList.add('project-card-component--nav--checked');
                 option1.classList.remove('project-card-component--nav--checked');
                 option3.classList.remove('project-card-component--nav--checked');
-                this.props.updateProject(title, description, background);
+                this.props.updateProject(title, description, background, imageBg);
                 break;
             case '03':
                 title = 'Ananda';
-                description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                    'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                    'ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in' +
-                    ' voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
+                description = 'Ananda is cross-platform application build with flutter to track and time workouts';
+                imageBg = githubImg;
                 option3.classList.add('project-card-component--nav--checked');
                 option1.classList.remove('project-card-component--nav--checked');
                 option2.classList.remove('project-card-component--nav--checked');
                 background = 'project-card-component--image__three';
 
-                this.props.updateProject(title, description, background);
+                this.props.updateProject(title, description, background, imageBg);
                 break;
             default:
                 break;
@@ -76,7 +74,7 @@ class ProjectCard extends React.Component{
                     </section>
                 </div>
                 <div className={this.props.background}>
-                    <img src={shutterImg} alt=""/>
+                    <img src={this.props.imageBg} alt=""/>
                 </div>
             </div>
     )}
