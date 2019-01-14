@@ -49,7 +49,6 @@
 .project-card-component .project-card-component--image__one img,
 .project-card-component .project-card-component--image__two img,
 .project-card-component .project-card-component--image__three img{
-    width: 80%;
     margin: 0 auto;
 }
 

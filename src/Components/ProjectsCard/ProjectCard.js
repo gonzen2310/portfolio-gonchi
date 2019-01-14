@@ -1,7 +1,9 @@
 import React from 'react';
 import './ProjectCard.css';
-import shutterImg from '../../assets/shuttler_img.svg';
-import tutoringImg from '../../assets/tutoring-hub_img.svg';
+import shutterImg from '../../assets/shuttler_img.png';
+import tutoringImg from '../../assets/tutoring-hub_img.png';
+import portfolioImg from '../../assets/portfolio_img.png';
+
 import visitImg from '../../assets/visit_ic.svg';
 import githubImg from '../../assets/github_ic.svg';
 
@@ -41,7 +43,7 @@ class ProjectCard extends React.Component{
             case '03':
                 title = 'Ananda';
                 description = 'Ananda is cross-platform application build with flutter to track and time workouts';
-                imageBg = githubImg;
+                imageBg = portfolioImg;
                 option3.classList.add('project-card-component--nav--checked');
                 option1.classList.remove('project-card-component--nav--checked');
                 option2.classList.remove('project-card-component--nav--checked');

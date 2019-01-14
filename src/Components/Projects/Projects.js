@@ -4,7 +4,7 @@ import './Projects.css';
 import ProjectCard from "../ProjectsCard/ProjectCard";
 import Button from "../Button/Button";
 
-import shutterImg from '../../assets/shuttler_img.svg';
+import shutterImg from '../../assets/shuttler_img.png';
 
 
 class Projects extends React.Component{
