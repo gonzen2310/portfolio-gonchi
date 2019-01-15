@@ -34,15 +34,21 @@
 .project-card-component .project-card-component--image__one {
     background-image: linear-gradient(to top, #FF547E 0%, #FFB199 100%);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-card-component .project-card-component--image__two {
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .project-card-component .project-card-component--image__three {
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -50,6 +56,7 @@
 .project-card-component .project-card-component--image__two img,
 .project-card-component .project-card-component--image__three img{
     margin: 0 auto;
+    height: 19em;
 }
 
 .project-card-component .project-card-component--description {
