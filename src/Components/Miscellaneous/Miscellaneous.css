@@ -13,6 +13,8 @@
 
 .miscellaneous-component .miscellaneous-component--content p{
     text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .miscellaneous-component .miscellaneous-component--image {
