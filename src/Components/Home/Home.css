@@ -11,6 +11,7 @@
 }
 .home-component .home-component--content {
     grid-column: 2;
+    display: block;
 }
 
 .home-component .home-component--text {
@@ -54,13 +55,17 @@
     .home-component .home-component--text h1{
         font-size: 6.5rem;
     }
+
+    .home-component .home-component--content {
+        display: block;
+    }
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 860px) {
 
     .home-component .home-component--image {
-        width: 80%;
+        width: 70%;
         float: none;
     }
 
@@ -69,12 +74,21 @@
     }
 
     .home-component .home-component--text h1{
-        font-size: 9rem;
+        font-size: 6rem;
     }
 
     .home-component .home-component--text  {
         width: 100%;
+        text-align: center;
     }
+
+    .home-component .home-component--content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 
 
     .home-component .home-component--image, .home-component .home-component--text  {
@@ -95,5 +109,12 @@
 @media only screen and (max-width: 650px) {
     .home-component .home-component--text h1{
         font-size: 5.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 350px) {
+    .home-component .home-component--text h1 {
+        font-size: 5rem;
     }
 }
