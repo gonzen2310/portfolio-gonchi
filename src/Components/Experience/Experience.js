@@ -10,7 +10,7 @@ class Experience extends React.Component{
                 id: 0,
                 position: "PSU Coders Club President",
                 company: "@ SUNY Plattsburgh",
-                style: "experience-card-component--position__red",
+                style: "experience-card-component--position__blue",
                 date: "September '18 - present",
                 place: "Plattsburgh, NY",
                 achievements: [
@@ -21,36 +21,37 @@ class Experience extends React.Component{
                     "Maintain Github repositories, solve merge conflicts and review pull requests"
                 ],
                 skills: [
-                    "JavaScript", "Kotlin", "HTML", "CSS", "Java", "React", "Android", "WebDev", "Agile", "Scrum",
-                    "PM", "Firebase", "Redux"
+                    "JavaScript", "Kotlin", "Flutter", "Java", "React", "Android", "WebDev", "Agile", "Scrum",
+                    "PM", "Firebase", "Redux", "Protoype", "UI/UX", "Databases", "Github"
                 ]
             },
             {
                 id: 1,
                 position: "Digital Media Intern",
                 company: "@ Interbank",
-                style: "experience-card-component--position__green",
+                style: "experience-card-component--position__blue",
                 date: "June '18 - August '18",
                 place: "Lima, PE",
                 achievements: [
-                    "Developed a supervised ML text classifier with python to process customer  reviews with an " +
+                    "Developed a supervised ML text classifier with python to process customer reviews with an " +
                     "accuracy of 92% as measured by a confusion matrix",
                     "Built over 15 fully responsive in-apps and pop-ups for the bank app and website using HTML5, " +
                     "CSS3 and vanilla JS for A/B testing and experiments",
                     "Proactively participated in committee meetings to show and analyze weekly results as well as " +
-                    "propose and discuss new experiments\n"
+                    "propose and discuss new experiments"
                 ],
                 skills: [
-                    "Java", "Ruby"
+                    "Python", "HTML5", "CSS3", "JavaScript", "Scrum", "ML", "A/B Testing", "Data Science", "Analytics",
+                    "Big Data", "Hadoop", "NPL"
                 ]
             },
             {
                 id: 2,
                 position: "Teaching Assistant",
                 company: "@ CS Department at SUNY Plattsburgh",
-                style: "experience-card-component--position__green",
-                date: "June '18 - August '18",
-                place: "Lima, PE",
+                style: "experience-card-component--position__blue",
+                date: "January '18 - Present",
+                place: "Plattsburgh, NY",
                 achievements: [
                     "Aid 50+ students in their understanding of core programming concepts and projects using " +
                     "Python and C ",
@@ -58,7 +59,38 @@ class Experience extends React.Component{
                     "for CSC221 (Intro to programming) and CSC309 (C language)",
                 ],
                 skills: [
-                    "Python", "C", "Tutoring"
+                    "Python", "C", "Tutoring", "CS Fundamentals", "TA"
+                ]
+            },
+            {
+                id: 3,
+                position: "Academic Tutor",
+                company: "@ Claude J. Clark Learning Center",
+                style: "experience-card-component--position__blue",
+                date: "September '17 - November '18",
+                place: "Plattsburgh, NY",
+                achievements: [
+                    "Assisted students with class material, reviews and assignments",
+                    "Tutored over 150 hours in 10 different courses including data structures, algorithms, python, C, C++ and calculus"
+                ],
+                skills: [
+                    "Programming", "Teaching", "Tutoring", "Algorithms", "Data Structures", "Calculus"
+                ]
+            },
+            {
+                id: 4,
+                position: "Android Developer",
+                company: "@ CS Department at SUNY Plattsburgh",
+                style: "experience-card-component--position__blue",
+                date: "September '17 - November '18",
+                place: "Plattsburgh, NY",
+                achievements: [
+                    "Worked together with Academic Advisor to assemble Burghy, an android application to help students find places on campus using indoor maps",
+                    "Submitted weekly detailed reports and documentation",
+                    "Presented application to the Computer Science Department"
+                ],
+                skills: [
+                    "Java", "Android", "Google API", "Firebase", "Documentation", "Github", "Maps", "UI/UX", "Prototyping"
                 ]
             }
         ];

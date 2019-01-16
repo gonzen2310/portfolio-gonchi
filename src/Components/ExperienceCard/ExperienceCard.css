@@ -32,22 +32,10 @@
     line-height: 25px;
 }
 
-.experience-card-component--container .experience-card-component--position__red li:before {
-    content: "";
-    border-color: transparent #F50945;
-    border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height: 0;
-    width: 0;
-    left: -1em;
-    top: 0.9em;
-    position: relative;
-}
 
-.experience-card-component--container .experience-card-component--position__green li:before {
+.experience-card-component--container .experience-card-component--position__blue li:before {
     content: "";
-    border-color: transparent #039A0D;
+    border-color: transparent #0582D5;
     border-style: solid;
     border-width: 0.35em 0 0.35em 0.45em;
     display: block;
@@ -59,16 +47,12 @@
 }
 
 
-.experience-card-component--container .experience-card-component--position__red {
-    color: #F50945;
+.experience-card-component--container .experience-card-component--position__blue {
+    color: #0582D5;
 }
 
-.experience-card-component--container .experience-card-component--position__red li, .experience-card-component--container .experience-card-component--position__green li {
+.experience-card-component--container .experience-card-component--position__blue li {
     color: black;
-}
-
-.experience-card-component--container .experience-card-component--position__green {
-    color: #039A0D;
 }
 
 .experience-card-component--skills {
@@ -76,15 +60,18 @@
 }
 
 .experience-card-component--skills span {
-    border: gold 2px solid;
+    border: #0582D5 2px solid;
     display: inline-block;
+    color: #0582D5;
     padding: 10px 20px;
     border-radius: 5px;
     margin-bottom: 1%;
     margin-right: 1%;
+    transition: all 0.5s;
 }
 
 .experience-card-component--skills span:hover {
-    background-color: gold;
+    background-color: #0582D5;
+    color: white;
     cursor: pointer;
 }
