@@ -12,11 +12,11 @@ import linkedinIc from '../../assets/linkedin_ic.svg';
 const Contact = () => {
     return(
         <section className={'contact-component'}>
-            <img id={'gmail_ic'} src={gmailIc} alt="Gmail"/>
-            <img src={githubIc} alt="Github"/>
-            <img src={linkedinIc} alt="LinkedIn"/>
-            <img src={codepenIc} alt="Codepen"/>
-            <img src={spotifyIc} alt="Spotify"/>
+            <a href={"mailto:gonzaloeladioreyes2310@gmail.com"}><img id={'gmail_ic'} src={gmailIc} alt="Gmail"/></a>
+            <a href={"https://www.github.com/gonzen2310"}><img src={githubIc} alt="Github"/></a>
+            <a href={"https://www.linkedin.com/in/gonzalo-reyes"}><img src={linkedinIc} alt="LinkedIn"/></a>
+            <a href={"https://codepen.io/gonzen2310/"}><img src={codepenIc} alt="Codepen"/></a>
+            <a href={"#"}><img src={spotifyIc} alt="Spotify"/></a>
         </section>
     );
 };

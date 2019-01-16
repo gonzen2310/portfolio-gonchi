@@ -28,6 +28,32 @@
     margin-bottom: 30px;
 }
 
+.about-component .about-component--content .about-component--content__skills {
+    display: flex;
+    justify-content: center;
+}
+
+.about-component .about-component--content .about-component--content__skills--left {
+    margin-right: 15%;
+}
+
+.about-component .about-component--content div p span a {
+    color: #0582D5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about-component .about-component--content .about-component--content__skills span, .about-component .about-component--content div p span {
+    margin-right: 5px;
+    color: #0582D5;
+}
+
+.about-component .about-component--content .about-component--content__skills p{
+    line-height: 20px;
+    margin: 5px 0;
+}
+
+
 @media only screen and (max-width: 1450px) {
     .about-component .about-component--container {
         grid-template-columns: 1fr;
