@@ -11,3 +11,9 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 350px) {
+    .title-component {
+        font-size: 3em;
+        font-weight: 600;
+    }
+}
