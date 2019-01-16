@@ -74,6 +74,7 @@
 }
 
 .project-card-component--description p {
+    line-height: 20px;
     text-align: justify;
 }
 

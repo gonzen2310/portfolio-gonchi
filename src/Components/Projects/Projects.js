@@ -10,13 +10,14 @@ import shutterImg from '../../assets/shuttler_img.png';
 class Projects extends React.Component{
     state = {
         title: 'Shuttler',
-        description: 'Shuttler is a mobile application to help students track the shuttler at SUNY Plattsburgh' +
-            'so they can see where the shuttle is at any time.',
+        description: 'Shuttler is a mobile application, Android and iOS, to help students track the shuttler at SUNY Plattsburgh' +
+                    'Users can see the shuttle position in real time displayed on a map',
         background: 'project-card-component--image__one',
+        github: 'https://github.com/PSUCoders/Shuttler/tree/master/Shuttler',
         imageBg: shutterImg
     };
 
-    updateProject = (title, description, background, imageBg) => {
+    updateProject = (title, description, background, github, imageBg) => {
         this.setState({
             title, description, background, imageBg
         })
@@ -33,6 +34,7 @@ class Projects extends React.Component{
                     title={this.state.title}
                     description={this.state.description}
                     imageBg = {this.state.imageBg}
+                    github = {this.state.github}
                     updateProject={this.updateProject}/>
                 <Button title='More projects'/>
             </div>

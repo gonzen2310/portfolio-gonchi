@@ -13,6 +13,7 @@ class ProjectCard extends React.Component{
         let description;
         let background;
         let imageBg;
+        let github;
         const option1 = document.querySelector("#first-project");
         const option2 = document.querySelector("#second-project");
         const option3 = document.querySelector("#third-project");
@@ -20,36 +21,41 @@ class ProjectCard extends React.Component{
         switch (e.target.innerHTML) {
             case '01':
                 title = 'Shuttler';
-                description = 'Shuttler is a mobile application to help students track the shuttler at SUNY Plattsburgh' +
-                    'so they can see where the shuttle is at any time.';
+                description = 'Shuttler is a mobile application, Android and iOS, to help students track the shuttler at SUNY Plattsburgh' +
+                    'Users can see the shuttle position in real time displayed on a map';
                 background = 'project-card-component--image__one';
+                github = 'https://github.com/PSUCoders/Shuttler/tree/master/Shuttler';
                 imageBg = shutterImg;
                 option1.classList.add('project-card-component--nav--checked');
                 option2.classList.remove('project-card-component--nav--checked');
                 option3.classList.remove('project-card-component--nav--checked');
-                this.props.updateProject(title, description, background, imageBg);
+                this.props.updateProject(title, description, background, github, imageBg);
                 break;
             case '02':
                 title = 'Tutoring Hub';
-                description = 'Tutoring Hub is a responsive website that allows students rate the tutors at the Learning Center' +
-                    'so they can choose the best tutor for them';
+                description = 'Tutoring Hub is a website that allows students rate the tutors at the Learning Center. ' +
+                    'Students can write and read reviews about their tutors so can choose the best tutor for them based on' +
+                    'their reviews. This website built using the MERN stack';
+                github = 'https://github.com/PSUCoders/Shuttler/tree/master/Shuttler';
                 background = 'project-card-component--image__two';
                 imageBg = tutoringImg;
                 option2.classList.add('project-card-component--nav--checked');
                 option1.classList.remove('project-card-component--nav--checked');
                 option3.classList.remove('project-card-component--nav--checked');
-                this.props.updateProject(title, description, background, imageBg);
+                this.props.updateProject(title, description, background, github, imageBg);
                 break;
             case '03':
-                title = 'Ananda';
-                description = 'Ananda is cross-platform application build with flutter to track and time workouts';
+                title = 'Portfolio';
+                description = 'My personal portfolio responsive website designed in AdobeXD and build with react to showcase ' +
+                'my experiences, projects and let viewers get to know a little bit more about me';
+                github = 'https://github.com/PSUCoders/Shuttler/tree/master/Shuttler';
                 imageBg = portfolioImg;
                 option3.classList.add('project-card-component--nav--checked');
                 option1.classList.remove('project-card-component--nav--checked');
                 option2.classList.remove('project-card-component--nav--checked');
                 background = 'project-card-component--image__three';
 
-                this.props.updateProject(title, description, background, imageBg);
+                this.props.updateProject(title, description, background, github, imageBg);
                 break;
             default:
                 break;
@@ -68,7 +74,7 @@ class ProjectCard extends React.Component{
                     <h1>{this.props.title}</h1>
                     <p>{this.props.description}</p>
                     <section className={'project-card-component--description-more'}>
-                        <a href="#">MORE</a>
+                        <a href={this.props.github}>MORE</a>
                         <div className={'project-card-component--description-more__img'}>
                             <a href="https://github.com/PSUCoders/Shuttler"><img id={'ic_github'} src={githubImg} alt=""/></a>
                             <a href="https://github.com/PSUCoders/Shuttler"><img src={visitImg} alt=""/></a>
