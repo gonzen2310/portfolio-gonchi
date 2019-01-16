@@ -22,3 +22,24 @@
     width: 30%;
     display: block;
 }
+
+@media only screen and (max-width: 1000px) {
+    .miscellaneous-component .miscellaneous-component--content p {
+        width: 70%;
+    }
+
+    .miscellaneous-component .miscellaneous-component--image {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .miscellaneous-component .miscellaneous-component--content p {
+        width: 100%;
+    }
+
+    .miscellaneous-component .miscellaneous-component--image {
+        width: 80%;
+    }
+}
+

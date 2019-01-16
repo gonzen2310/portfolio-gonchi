@@ -13,11 +13,9 @@ const Touch = () => {
                 <div className={'touch-component--content'}>
                     <Title num = '' section= "Let's get in touch"/>
                     <p>
-                        Hi there,
-                        I am Gonzalo a student at SUNY Plattsburgh. My passion is to build high quality software product that
-                        Currently I am the president and co-founder of the PSU Coders club, a club focused on developing software to
-                        improve student's life on campus. Check out our dope projects here Currently I am the president and co-founder
-                        of the PSU Coders club, a club focused on developing software to improve student's life on campus. Check out
+                        Currently I am looking for a software engineer intership for Summer 2019 and/or Fall 2019. However, I always 
+                        have time to work on other project, so if you have any project, freelance job or ideas you would like to share with me
+                         please don't hesitate to reach out to me, I would be more than happy to help you and see what we can do together!
                     </p>
                     <Button title = 'Say hi'/>
                 </div>
