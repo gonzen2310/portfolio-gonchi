@@ -8,7 +8,7 @@ const Touch = () => {
     return(
         <div className={'touch-component'}>
 
-            <div className={'touch-component--container'}>
+            <div id={"touch"} className={'touch-component--container'}>
                 <img className={'touch-component--image'} src={touchImage} alt=""/>
                 <div className={'touch-component--content'}>
                     <Title num = '' section= "Let's get in touch"/>

@@ -6,7 +6,7 @@ import ideasImg from "../../assets/ideas_ic.svg";
 
 const Miscellaneous = () => {
     return(
-        <div className={'miscellaneous-component'}>
+        <div href={"miscellaneous"} className={'miscellaneous-component'}>
             <div className={'miscellaneous-component--content'}>
                 <Title num = '04.' section= 'Miscellaneous'/>
                 <p> This section contains many files including TA projects, personal photos, ideas, etc. This is a space

@@ -7,7 +7,7 @@ import Button from "../Button/Button";
 
 const About = () => {
     return(
-        <div className={'about-component'}>
+        <div id={"about"} className={'about-component'}>
             <div className={'about-component--container'}>
                 <img className={'about-component--image'} src={profileImage} alt=""/>
                 <div className={'about-component--content'}>

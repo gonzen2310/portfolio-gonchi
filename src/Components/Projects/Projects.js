@@ -25,7 +25,7 @@ class Projects extends React.Component{
 
     render() {
         return(
-            <div className={'projects-component'}>
+            <div id={"projects"} className={'projects-component'}>
                 <Title num = '03.' section= 'Top Projects'/>
                 <ProjectCard
                     background = {this.state.background}

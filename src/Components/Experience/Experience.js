@@ -96,7 +96,7 @@ class Experience extends React.Component{
         ];
 
         return(
-            <div className={'experience-component'}>
+            <div id={"experience"} className={'experience-component'}>
                 <div className={'experience-component--content'}>
                     <Title num = '02.' section= 'Experience'/>
                     <ExperienceCard experiences={experiences}/>
