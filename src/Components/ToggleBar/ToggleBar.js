@@ -2,11 +2,12 @@ import React from 'react';
 import './ToggleBar.css';
 
 const ToggleBar = () => {
-    const closeBar = (e) => {
+    const closeBar = (e) => {        
+        let closeNav = document.getElementsByClassName("toggle-bar-component")[0];
         let wrapperNav = document.querySelector(".toggle-bar-component .toggle-bar-component--wrapper");
         let burgerIcon = document.querySelector(".navbar-component img:nth-child(2)");
         burgerIcon.style.height = "20px";
-        e.target.style.height = "0px";
+        closeNav.style.height = "0px";
         wrapperNav.style.display = "none";
     }
 
