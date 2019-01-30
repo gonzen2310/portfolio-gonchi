@@ -16,7 +16,7 @@ const Contact = () => {
             <a href={"https://www.github.com/gonzen2310"}><img src={githubIc} alt="Github"/></a>
             <a href={"https://www.linkedin.com/in/gonzalo-reyes"}><img src={linkedinIc} alt="LinkedIn"/></a>
             <a href={"https://codepen.io/gonzen2310/"}><img src={codepenIc} alt="Codepen"/></a>
-            <a href={"#"}><img src={spotifyIc} alt="Spotify"/></a>
+            <a href={"/errortest"}><img src={spotifyIc} alt="Spotify"/></a>
         </section>
     );
 };
