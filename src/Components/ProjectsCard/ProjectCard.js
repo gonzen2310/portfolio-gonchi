@@ -9,11 +9,7 @@ import githubImg from '../../assets/github_ic.svg';
 
 class ProjectCard extends React.Component{
     clickHandler = (e) => {
-        let title;
-        let description;
-        let background;
-        let imageBg;
-        let github;
+        let title, description, background, imageBg, github, url;
         const option1 = document.querySelector("#first-project");
         const option2 = document.querySelector("#second-project");
         const option3 = document.querySelector("#third-project");
@@ -26,36 +22,39 @@ class ProjectCard extends React.Component{
                 background = 'project-card-component--image__one';
                 github = 'https://github.com/PSUCoders/Shuttler/tree/master/Shuttler';
                 imageBg = shutterImg;
+                url = 'https://psushuttle.com';
                 option1.classList.add('project-card-component--nav--checked');
                 option2.classList.remove('project-card-component--nav--checked');
                 option3.classList.remove('project-card-component--nav--checked');
-                this.props.updateProject(title, description, background, github, imageBg);
+                this.props.updateProject(title, description, background, github, url, imageBg);
                 break;
             case '02':
                 title = 'Tutoring Hub';
                 description = 'Tutoring Hub is a website that allows students rate the tutors at the Learning Center. ' +
                     'Students can write and read reviews about their tutors so can choose the best tutor for them based on' +
                     'their reviews. This website built using the MERN stack';
-                github = 'https://github.com/PSUCoders/Shuttler/tree/master/Shuttler';
+                github = 'https://github.com/PSUCoders/tutoring-hub';
                 background = 'project-card-component--image__two';
                 imageBg = tutoringImg;
+                url = 'https://psushuttle.com';
                 option2.classList.add('project-card-component--nav--checked');
                 option1.classList.remove('project-card-component--nav--checked');
                 option3.classList.remove('project-card-component--nav--checked');
-                this.props.updateProject(title, description, background, github, imageBg);
+                this.props.updateProject(title, description, background, github, url, imageBg);
                 break;
             case '03':
                 title = 'Portfolio';
-                description = 'My personal portfolio responsive website designed in AdobeXD and build with react to showcase ' +
+                description = 'My personal portfolio responsive website designed in AdobeXD and built with react to showcase ' +
                 'my experiences, projects and let viewers get to know a little bit more about me';
-                github = 'https://github.com/PSUCoders/Shuttler/tree/master/Shuttler';
+                github = 'https://github.com/gonzen2310/portfolio-gonchi';
                 imageBg = portfolioImg;
+                url = 'https://www.iamgonchi.com';
                 option3.classList.add('project-card-component--nav--checked');
                 option1.classList.remove('project-card-component--nav--checked');
                 option2.classList.remove('project-card-component--nav--checked');
                 background = 'project-card-component--image__three';
 
-                this.props.updateProject(title, description, background, github, imageBg);
+                this.props.updateProject(title, description, background, github, url, imageBg);
                 break;
             default:
                 break;
@@ -76,8 +75,8 @@ class ProjectCard extends React.Component{
                     <section className={'project-card-component--description-more'}>
                         <a href={this.props.github}>MORE</a>
                         <div className={'project-card-component--description-more__img'}>
-                            <a href="https://github.com/PSUCoders/Shuttler"><img id={'ic_github'} src={githubImg} alt=""/></a>
-                            <a href="https://github.com/PSUCoders/Shuttler"><img src={visitImg} alt=""/></a>
+                            <a href={this.props.github} target={"_blank"}><img id={'ic_github'} src={githubImg} alt=""/></a>
+                            <a href={this.props.url} target={"_blank"}><img src={visitImg} alt=""/></a>
                         </div>
                     </section>
                 </div>
