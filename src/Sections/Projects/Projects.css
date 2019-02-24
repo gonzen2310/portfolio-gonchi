@@ -13,8 +13,16 @@
     font-size: 3.5em;
 }
 
-.projects-section a, .projects-section p {
+.projects-section h1 span {
+    color: rgba(41,41,41, 0.5);
+}
+
+.projects-section a, .projects-section .projects-section--intro {
     grid-column: 2;
+}
+
+.projects-section .projects-section--intro {
+    font-size: 20px;
 }
 
 .projects-section a img {

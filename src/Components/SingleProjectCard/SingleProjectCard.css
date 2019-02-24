@@ -1,5 +1,4 @@
 .single-project-card-component  {
-    /* border: 1px #0F0F0F solid; */
     height: 25rem;
     overflow: hidden;
     position: relative;
@@ -16,7 +15,9 @@
 }
 
 .single-project-card-component .single-project-card-component--img img {
-    width: 100%;
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
 }
 
 .single-project-card-component .single-project-card-component--content {

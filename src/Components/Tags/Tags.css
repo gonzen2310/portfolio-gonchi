@@ -1,0 +1,20 @@
+.tag-component {
+    border: #0582D5 1px solid;
+    display: inline-block;
+    color: #0582D5;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    transition: all 0.5s;    
+}
+
+.tag-component:hover {
+    background-color: #0582D5;
+    color: white;
+    cursor: pointer;
+}
+
+.tags-component {
+    grid-column: 2;
+}
