@@ -17,7 +17,7 @@ const Touch = () => {
                         have time to work on other project, so if you have any project, freelance job or ideas you would like to share with me
                          please don't hesitate to reach out to me, I would be more than happy to help you and see what we can do together!
                     </p>
-                    <Button title = 'Say hi'/>
+                    <Button title = 'Say hi' link = {"mailto:reyesegonzalo@gmail.com"} target = {false}/>
                 </div>
             </div>
         </div>

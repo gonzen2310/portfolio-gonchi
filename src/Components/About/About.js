@@ -4,6 +4,7 @@ import Title from '../Title/Title';
 import profileImage from '../../assets/ic_profile_photo.svg';
 import './About.css';
 import Button from "../Button/Button";
+import resume from '../../assets/resume.pdf';
 
 const About = () => {
     return(
@@ -47,7 +48,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <Button title = 'resume'/>
+                    <Button title = 'resume' link = {resume} target = {true}/>
                 </div>
             </div>
         </div>

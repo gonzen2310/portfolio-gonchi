@@ -36,7 +36,7 @@ class Projects extends React.Component{
                     github = {this.state.github}
                     url = {this.state.url}
                     updateProject={this.updateProject}/>
-                <Button title='More projects'/>
+                <Button title='More projects' link='/projects' target = {false}/>
             </div>
         )
     }

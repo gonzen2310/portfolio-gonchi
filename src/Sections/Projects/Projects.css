@@ -1,0 +1,33 @@
+.projects-section {
+    display: grid;
+    align-items: start;
+    grid-template-columns: minmax(10vw,1fr) minmax(0,var(--content-max-width)) minmax(10vw,1fr);
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+    margin: 2.83rem 0;
+}
+
+.projects-section h1 {
+    grid-column: 2;
+    font-size: 3.5em;
+}
+
+.projects-section a, .projects-section p {
+    grid-column: 2;
+}
+
+.projects-section a img {
+    height: 20px;
+}
+
+.projects-section--wrapper {
+    grid-column: 2;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-gap: 2.2rem;
+    margin-bottom: 2px;
+}
