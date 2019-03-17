@@ -6,6 +6,10 @@ import SingleProjectCard from '../../Components/SingleProjectCard/SingleProjectC
 import logo from '../../assets/navlogo_ic.svg';
 import Tags from '../../Components/Tags/Tags';
 
+// Import images
+import tutoringImg from '../../assets/tutoring-hub_img.png';
+
+
 class Projects extends React.Component {
     state = {
 
@@ -71,7 +75,7 @@ class Projects extends React.Component {
     
         const projectsList = projectsData.map((project, idx) => {
             return (        
-                <SingleProjectCard key={idx} title = {project.project } description = {project.description} />
+                <SingleProjectCard key={idx} title = {project.project } image = {project.image} description = {project.description} />
             )
         });
         return (

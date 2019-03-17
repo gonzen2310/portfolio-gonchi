@@ -1,11 +1,12 @@
 import React from 'react';
 import './SingleProjectCard.css';
 
-const SingleProjectCard = ({title, description}) => {
+const SingleProjectCard = ({title, image, description}) => {
+    console.log(image);
     return (
         <div className={'single-project-card-component'}>
             <div className={'single-project-card-component--img'}>
-                <img src="https://www.gettyimages.com/gi-resources/images/CreativeLandingPage/HP_Sept_24_2018/CR3_GettyImages-159018836.jpg" alt=""/> 
+                <img src={image} alt=""/> 
             </div>
             <div className={'single-project-card-component--content'}>    
                 <h2>{title}</h2>
