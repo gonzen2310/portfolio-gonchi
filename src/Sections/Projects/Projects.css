@@ -31,14 +31,6 @@
 
 .projects-section--wrapper {
     grid-column: 2;
-    /* padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-    grid-gap: 2.2rem;
-    margin-bottom: 2px; */
-
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
     grid-gap: 10px;
