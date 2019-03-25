@@ -13,16 +13,16 @@ import Touch from "../../Components/Touch/Touch";
 import Footer from "../../Components/Footer/Footer";
 
 class Main extends React.Component {
-    componentDidMount() {
-        axios
-        .get("http://165.227.105.244:3001/projects")
-        .then((response) => {
-            console.log(response.data);
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-    }
+    // componentDidMount() {
+    //     axios
+    //     .get("http://165.227.105.244:3001/projects")
+    //     .then((response) => {
+    //         console.log(response.data);
+    //     })
+    //     .catch(function (error) {
+    //         console.log(error);
+    //     });
+    // }
 
     render() {
         return (
