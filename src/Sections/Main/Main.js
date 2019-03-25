@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Main.css";
+import axios from 'axios';
 
 // Import components
 import ToggleBar from "../../Components/ToggleBar/ToggleBar"
@@ -12,6 +13,17 @@ import Touch from "../../Components/Touch/Touch";
 import Footer from "../../Components/Footer/Footer";
 
 class Main extends React.Component {
+    componentDidMount() {
+        axios
+        .get("http://165.227.105.244:3001/projects")
+        .then((response) => {
+            console.log(response.data);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+    }
+
     render() {
         return (
             <div className="main-section">
