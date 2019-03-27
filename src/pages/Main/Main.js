@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Main.css";
-import axios from 'axios';
+// import axios from 'axios';
 
 // Import components
 import ToggleBar from "../../Components/ToggleBar/ToggleBar"

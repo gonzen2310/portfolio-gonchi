@@ -8,6 +8,18 @@ class Experience extends React.Component{
         const experiences = [
             {
                 id: 0,
+                position: "Incoming SWE Intern",
+                company: "@ Codecademy",
+                style: "experience-card-component--position__blue",
+                date: "June '19 - August '19",
+                place: "New York, NY",
+                achievements: [
+                    "This summer I will be interning at Codecademy as a Software Engineer"
+                ],
+                skills: []
+            },
+            {
+                id: 1,
                 position: "PSU Coders Club President",
                 company: "@ SUNY Plattsburgh",
                 style: "experience-card-component--position__blue",
@@ -26,7 +38,7 @@ class Experience extends React.Component{
                 ]
             },
             {
-                id: 1,
+                id: 2,
                 position: "Digital Media Intern",
                 company: "@ Interbank",
                 style: "experience-card-component--position__blue",
@@ -46,7 +58,7 @@ class Experience extends React.Component{
                 ]
             },
             {
-                id: 2,
+                id: 3,
                 position: "Teaching Assistant",
                 company: "@ CS Department at SUNY Plattsburgh",
                 style: "experience-card-component--position__blue",
@@ -63,7 +75,7 @@ class Experience extends React.Component{
                 ]
             },
             {
-                id: 3,
+                id: 4,
                 position: "Academic Tutor",
                 company: "@ Claude J. Clark Learning Center",
                 style: "experience-card-component--position__blue",
@@ -78,7 +90,7 @@ class Experience extends React.Component{
                 ]
             },
             {
-                id: 4,
+                id: 5,
                 position: "Android Developer",
                 company: "@ CS Department at SUNY Plattsburgh",
                 style: "experience-card-component--position__blue",

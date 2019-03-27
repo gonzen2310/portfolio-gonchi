@@ -16,13 +16,14 @@ const About = () => {
                     <div>
                         <p>
                             Hi there!,
-                            I'm Gonzalo, a web and android developer who enjoys building exceptional high quality and meaningful applications. Currently, I 
+                            I'm Gonzalo, a web and android developer who enjoys building high quality and meaningful applications. Currently, I 
                             am a junior at SUNY Plattsburgh working towards improvement of the learning experience and life quality of students on campus 
                             through convenient and sophisticated software applications. I love to work with different and latest technologies, be involved 
-                            in the whole development process and work with extremely talented people to make products that would make an immediate impact. 
-                            Most of my projects always come from a problem I want to solve, and it is by solving that problem that I grow and develop my 
+                            in the whole development process and collaborate with extremely talented people to make products that would make an immediate impact. 
+                            My projects always come from a problem I want to solve, and it is by solving that problem that I grow and develop my 
                             coding abilities. Since September 2018 I serve as the president of <span><a href={"https://www.coding-hub.com"}>Coding Hub</a></span>, 
-                            an organization that develops web and mobile applications to solve real problems at SUNY Plattsburgh.
+                            an organization that develops web and mobile applications to solve real problems at SUNY Plattsburgh. This summer I will be interning
+                            at <span><a href={"https://www.codecademy.com"}>Codecademy</a></span>!
                             <br/>
                             Here are a few languages and technologies I'm experienced with:
                                 {/* Hi there!,

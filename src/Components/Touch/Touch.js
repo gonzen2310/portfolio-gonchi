@@ -13,9 +13,9 @@ const Touch = () => {
                 <div className={'touch-component--content'}>
                     <Title num = '' section= "Let's get in touch"/>
                     <p>
-                        Currently I am looking for a software engineer intership for Summer 2019 and/or Fall 2019. However, I always 
-                        have time to work on other project, so if you have any project, freelance job or ideas you would like to share with me
-                         please don't hesitate to reach out to me, I would be more than happy to help you and see what we can do together!
+                        Currently, I am looking for a software engineer intership for this Fall (2019). However, I always 
+                        have time to work on other projects so, if you have any project, freelance job or ideas you would like to share with me
+                        please don't hesitate to reach out to me, I would be more than happy to help you and see what we can do together!
                     </p>
                     <Button title = 'Say hi' link = {"mailto:reyesegonzalo@gmail.com"} target = {false}/>
                 </div>

@@ -5,9 +5,9 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import './App.css';
 
 // Import section
-import Main from './Sections/Main/Main';
-import NotFound from './Sections/NotFound/NotFound';
-import Projects from './Sections/Projects/Projects';
+import Main from './pages/Main/Main';
+import NotFound from './pages/NotFound/NotFound';
+import Projects from './pages/Projects/Projects';
 
 
 class App extends Component {
