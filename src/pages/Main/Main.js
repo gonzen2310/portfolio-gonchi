@@ -24,7 +24,7 @@ class Main extends React.Component {
     //     });
     // }
     render() {
-        console.log("CIRCLE CI MODULE");
+        console.log("CIRCLE CI FAILED");
         return (
             <div className="main-section">
                 <ToggleBar/>
