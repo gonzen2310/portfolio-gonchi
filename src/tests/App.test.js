@@ -7,3 +7,7 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+it('test-circleci-slack', () => {
+  expect(1 + 3).toBe(4);
+});
