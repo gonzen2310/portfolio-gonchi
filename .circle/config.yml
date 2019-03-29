@@ -1,0 +1,28 @@
+version: 2 # use CircleCI 2.0
+jobs: # a collection of steps
+  build: # runs not using Workflows must have a `build` job as entry point
+    docker:
+      - image: circleci/node:10.15.3 # ...with this image as the primary container; this is where all `steps` will run
+    
+    working_directory: ~/repo
+    
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache: # special step to restore the dependency cache
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run:
+        name: install-packages
+        command: npm install
+
+      - save_cache: # special step to save the dependency cache
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      # run tests!
+      - run: npm test
