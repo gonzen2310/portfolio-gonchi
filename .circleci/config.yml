@@ -32,15 +32,12 @@ jobs:
       
       # run tests!
       - run: yarn test
-      
-      # build project
-      - run: yarn build
 
   deploy:
     docker:
         # specify the version you desire here
         - image: circleci/node:10.15.3
-        
+
     steps:
       - checkout
       # Download and cache dependencies
@@ -51,6 +48,9 @@ jobs:
             - v1-dependencies-
 
       - run: yarn install
+
+      # build project
+      - run: yarn build
 
       - save_cache:
           paths:
