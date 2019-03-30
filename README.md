@@ -1,17 +1,16 @@
 # Porfolio Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status)](https://app.netlify.com/sites/brittanychiang/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/325dcbb7-9c21-4ef1-b33b-0ff86d56288f/deploy-status)](https://app.netlify.com/sites/silly-mcclintock-2329f3/deploys)
 
+[![CircleCI](https://circleci.com/gh/gonzen2310/portfolio-gonchi.svg?style=svg)](https://circleci.com/gh/gonzen2310/portfolio-gonchi)
+
+
+First version of my portfolio website build with [React](https://reactjs.org/) and hosted on [Netlify](https://www.netlify.com/)
 The fourth iteration of my personal site built with [Gatsby](https://www.gatsbyjs.org/) and hosted with [Netlify](https://www.netlify.com/).
 
-> 📢 **PSA for those who want to fork or copy this repo and use it for their own site:**
->
-> Please be a decent person and give me proper credit by linking back to my website! Refer to this handy [quora post](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) if you're not sure.
-
-👀 [Looking for v3?](https://bchiang7.github.io/)
 
 ## 🚀 Quick Start
-
+<!-- 
 1.  **Install the Gatsby CLI**
 
     ```sh
@@ -91,4 +90,4 @@ A quick look at the top-level files and directories in this project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
-13. **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm. This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
+13. **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm. This file serves essentially the same purpose as `package-lock.json`, just for a different package management system. -->
