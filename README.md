@@ -1,10 +1,10 @@
 # Porfolio Website
 
 <!-- Badges -->
-[![Netlify Status](https://api.netlify.com/api/v1/badges/325dcbb7-9c21-4ef1-b33b-0ff86d56288f/deploy-status)](https://app.netlify.com/sites/silly-mcclintock-2329f3/deploys) [![CircleCI](https://circleci.com/gh/gonzen2310/portfolio-gonchi.svg?style=svg)](https://circleci.com/gh/gonzen2310/portfolio-gonchi) [![React](https://img.shields.io/npm/v/react.svg)]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/325dcbb7-9c21-4ef1-b33b-0ff86d56288f/deploy-status)](https://app.netlify.com/sites/silly-mcclintock-2329f3/deploys) [![CircleCI](https://circleci.com/gh/gonzen2310/portfolio-gonchi.svg?style=svg)](https://circleci.com/gh/gonzen2310/portfolio-gonchi) ![React](https://img.shields.io/npm/v/react.svg)
 
 <!-- Project Description -->
-This repository contains the source code for my personal website (v1) build with [React](https://reactjs.org/) and hosted on [Netlify](https://www.netlify.com/). 
+This repository contains the source code for my personal website (v1) built with [React](https://reactjs.org/) and hosted on [Netlify](https://www.netlify.com/). 
 
 ## Installation
 
