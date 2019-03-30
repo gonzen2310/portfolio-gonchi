@@ -24,7 +24,7 @@ class Main extends React.Component {
     //     });
     // }
     render() {
-        console.log("CIRCLE CI WORKFLOW FINAL");
+        console.log("CIRCLE CI WORKFLOW DOCUMENTATION");
         return (
             <div className="main-section">
                 <ToggleBar/>
