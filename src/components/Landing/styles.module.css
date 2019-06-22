@@ -1,0 +1,41 @@
+.landing {
+	display: grid;
+	grid-template-columns: minmax(10vw, 1fr) minmax(0, 90rem) minmax(10vw, 1fr);
+}
+
+.container,
+.navbar {
+	display: flex;
+	grid-column: 2;
+}
+
+.navbar {
+	margin: 2.5em 0;
+}
+
+.left-container {
+	text-align: left;
+}
+
+.left-container,
+.right-container {
+	flex: 1 1;
+	box-sizing: border-box;
+	padding: 4rem 2rem 2rem;
+}
+
+.landing-img {
+	max-width: 100%;
+}
+
+.name {
+	font-size: 10em;
+	margin: 0;
+	font-weight: 500;
+	color: #1a1245;
+}
+
+.subheaders {
+	font-weight: 300;
+	color: #1a1245;
+}
