@@ -21,7 +21,7 @@
 .right-container {
 	flex: 1 1;
 	box-sizing: border-box;
-	padding: 4rem 2rem 2rem;
+	padding: 4rem 0 2rem;
 }
 
 .landing-img {
@@ -37,5 +37,28 @@
 
 .subheaders {
 	font-weight: 300;
-	color: #1a1245;
+	color: rgba(26, 18, 69, 0.75);
+}
+
+@media only screen and (max-width: 400px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.name {
+		font-size: 5em;
+	}
+
+	.subheaders {
+		font-size: 1.2em;
+	}
+
+	.left-container,
+	.right-container {
+		padding: 1em 0;
+	}
+
+	.navbar {
+		margin: 1.5em 0;
+	}
 }

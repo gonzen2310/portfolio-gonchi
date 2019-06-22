@@ -8,7 +8,7 @@ import styles from "./styles.module.css";
 
 const Contact: React.FC = () => {
 	return (
-		<nav>
+		<nav className={styles.contact}>
 			<a href="/">
 				<img className={styles["icon-margin"]} src={gmailIc} alt="Gmail icon" />
 			</a>
