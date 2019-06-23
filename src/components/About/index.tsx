@@ -4,13 +4,14 @@ import handImg from "../../assets/hand-img.svg";
 import styles from "./styles.module.css";
 
 import Button from "../Button";
+import Skills from "./Skills";
 
 const About: React.FC = () => {
 	return (
 		<div className={styles.about}>
 			<section className={styles.container}>
 				<div className={styles["left-container"]}>
-					<img src={aboutPhoto} alt="Photo of Gonzalo Reyes" />
+					<img src={aboutPhoto} alt="Gonzalo Reyes Profile" />
 				</div>
 				<div className={styles["right-container"]}>
 					<p>
@@ -33,6 +34,7 @@ const About: React.FC = () => {
 					<Button text="Resume" />
 				</div>
 			</section>
+			<Skills />
 		</div>
 	);
 };

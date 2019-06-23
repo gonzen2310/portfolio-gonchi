@@ -1,0 +1,33 @@
+.skills {
+	display: flex;
+	flex-direction: column;
+	grid-column: 2;
+}
+
+.bullet {
+	display: flex;
+	align-items: center;
+}
+
+.bullet img {
+	margin-right: 15px;
+	width: 15px;
+}
+
+.title {
+	font-size: 3em;
+	color: #1a1245;
+}
+
+.skills-container {
+	display: flex;
+	margin: 0 auto;
+}
+
+.skills-container div {
+	margin-right: 30px;
+}
+
+.skills-container div:last-child {
+	margin-right: 0px;
+}
