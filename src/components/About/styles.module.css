@@ -1,0 +1,33 @@
+.about {
+	display: grid;
+	grid-template-columns: minmax(10vw, 1fr) minmax(0, 90rem) minmax(10vw, 1fr);
+}
+
+.container {
+	display: flex;
+	grid-column: 2;
+}
+
+.container div {
+	flex: 1 1;
+}
+
+.left-container,
+.right-container {
+	box-sizing: border-box;
+	padding: 0 4em;
+}
+
+.left-container img {
+	width: 80%;
+}
+
+.right-container p {
+	text-align: justify;
+	line-height: 24px;
+	font-size: 16px;
+	margin-bottom: 2em;
+}
+.right-container p img {
+	width: 30px;
+}
