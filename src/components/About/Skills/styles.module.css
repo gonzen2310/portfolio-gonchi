@@ -33,7 +33,24 @@
 	margin-right: 0px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+	.skills-container {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.skills-container div {
+		margin: 0;
+		width: 50%;
+	}
+
+	.skills-container .bullet {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
 	.skills-container {
 		flex-direction: row;
 		flex-wrap: wrap;

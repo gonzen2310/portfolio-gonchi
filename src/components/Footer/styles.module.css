@@ -24,13 +24,13 @@
 	color: #0dbdff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 	.footer-wrapper {
 		flex-direction: column;
 	}
 
 	.footer-wrapper p,
 	.footer-wrapper img {
-		margin: 10px 0;
+		margin: 20px 0;
 	}
 }

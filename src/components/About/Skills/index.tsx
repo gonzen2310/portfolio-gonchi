@@ -13,7 +13,7 @@ const SkillsColumn: React.FC<SkillsColumnProps> = ({ skills }) => {
 		</div>
 	));
 
-	return <div>{skillsList}</div>;
+	return <div className={styles["skills-list-container"]}>{skillsList}</div>;
 };
 
 const Skills: React.FC = () => {
