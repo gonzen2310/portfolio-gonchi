@@ -2,9 +2,10 @@
 	display: grid;
 	grid-template-columns: minmax(10vw, 1fr) minmax(0, 90rem) minmax(10vw, 1fr);
 	grid-template-rows: auto 1fr;
-	height: 100vh;
 	padding: 2.83rem 0;
 	box-sizing: border-box;
+	min-height: 100vh;
+	/* TODO: Content moves when height changes */
 }
 
 .container,
