@@ -20,6 +20,7 @@
 
 .left-container img {
 	width: 80%;
+	max-width: 450px;
 }
 
 .right-container p {
@@ -32,7 +33,21 @@
 	width: 30px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1400px) {
+	.left-container {
+		padding: 0 2.5em;
+	}
+
+	.right-container {
+		padding: 0;
+	}
+
+	.left-container img {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
 	.container {
 		flex-direction: column;
 	}
@@ -41,5 +56,15 @@
 	.right-container {
 		box-sizing: border-box;
 		padding: 0;
+	}
+
+	.left-container img {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.left-container img {
+		width: 80%;
 	}
 }
