@@ -6,9 +6,9 @@ import instagramIc from "../../assets/instagram-ic.svg";
 import linkedinIc from "../../assets/linkedin-ic.svg";
 import styles from "./styles.module.css";
 
-const Contact: React.FC = () => {
+const SocialMedia: React.FC = () => {
 	return (
-		<nav className={styles.contact}>
+		<nav className={styles.socialmedia}>
 			<a href="mailto:reyesegonzalo@gmail.com">
 				<img className={styles["icon-margin"]} src={gmailIc} alt="Gmail icon" />
 			</a>
@@ -44,4 +44,4 @@ const Contact: React.FC = () => {
 	);
 };
 
-export default Contact;
+export default SocialMedia;
