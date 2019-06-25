@@ -1,9 +1,7 @@
 .contact {
-	background-image: url("../../assets/contact-bg.svg");
+	background-image: url("../../assets/contact-bg-lg.svg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
-	height: auto;
 	min-height: 100vh;
 	display: grid;
 	grid-template-columns: minmax(10vw, 1fr) minmax(0, 90rem) minmax(10vw, 1fr);
@@ -28,16 +26,37 @@
 	width: 100%;
 }
 
+@media only screen and (max-width: 1650px) {
+	.contact {
+		background-image: url("../../assets/contact-bg-md.svg");
+	}
+
+	.contact-wrapper-left {
+		padding: 0 2em;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.contact {
+		background-image: url("../../assets/contact-bg-sm.svg");
+	}
+}
+
+@media only screen and (max-width: 1220px) {
+	.contact {
+		background-image: url("../../assets/contact-bg-xs.svg");
+	}
+}
+
 @media only screen and (max-width: 1000px) {
 	.contact {
-		background-color: white;
+		background-image: none;
 	}
 	.contact-wrapper {
 		flex-direction: column;
 	}
 
-	.contact-wrapper-left,
-	.contact-wrapper-right {
+	.contact-wrapper-left {
 		padding: 0 2em;
 	}
 	.contact-wrapper-left img {
@@ -49,5 +68,9 @@
 @media only screen and (max-width: 800px) {
 	.contact-wrapper-left img {
 		width: 100%;
+	}
+
+	.contact-wrapper-right {
+		padding: 0 2em;
 	}
 }
