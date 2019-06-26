@@ -1,5 +1,4 @@
 .card {
-	background-color: #204055;
 	color: #ffffff;
 	/* min-width: 18rem; */
 	display: flex;
@@ -37,5 +36,5 @@
 
 .card-position,
 .card-location {
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(255, 255, 255, 0.7);
 }
