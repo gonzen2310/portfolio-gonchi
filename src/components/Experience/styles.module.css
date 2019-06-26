@@ -13,4 +13,5 @@
 	grid-template-columns: repeat(auto-fill, 17rem);
 	grid-gap: 2.2rem;
 	justify-content: center;
+	margin: 0 auto;
 }

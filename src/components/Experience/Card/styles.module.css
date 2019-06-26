@@ -1,12 +1,12 @@
 .card {
 	color: #ffffff;
-	/* min-width: 18rem; */
 	display: flex;
 	flex-direction: column;
 	width: 15rem;
 	height: 18rem;
 	border-radius: 15px;
 	justify-content: space-between;
+	margin: 0 auto;
 }
 
 .card-number {
