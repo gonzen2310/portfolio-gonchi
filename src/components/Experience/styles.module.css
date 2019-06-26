@@ -6,3 +6,11 @@
 .experience-wrapper {
 	grid-column: 2;
 }
+
+.experience-wrapper-cards {
+	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 17rem);
+	grid-gap: 2.2rem;
+	justify-content: center;
+}

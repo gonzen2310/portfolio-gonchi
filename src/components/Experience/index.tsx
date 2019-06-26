@@ -67,9 +67,11 @@ const Experience: React.FC = () => {
 		<div className={styles.experience}>
 			<div className={styles["experience-wrapper"]}>
 				<h1>EXPERIENCE</h1>
-				{experiences.map(experience => {
-					return <Card key={experience.number} job={experience} />;
-				})}
+				<div className={styles["experience-wrapper-cards"]}>
+					{experiences.map(experience => {
+						return <Card key={experience.number} job={experience} />;
+					})}
+				</div>
 			</div>
 		</div>
 	);
