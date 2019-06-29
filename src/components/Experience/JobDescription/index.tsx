@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import styles from "./styles.module.css";
 import codecademyLogo from "../../../assets/codecademy-logo.svg";
 import { Job } from "..";

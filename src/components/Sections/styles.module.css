@@ -10,18 +10,25 @@
 	border-radius: 100px;
 }
 
-.selected {
-	background-color: white;
-	box-sizing: border-box;
-	padding: 10px 15px;
-	border-radius: 50px;
-}
-
-.sections a {
+.sections button {
 	text-decoration: none;
 	font-size: 1.5em;
 	color: #1a1245;
 	font-weight: 500;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.sections button:focus {
+	outline: none;
+}
+
+.sections button.selected {
+	background-color: white;
+	box-sizing: border-box;
+	padding: 10px 15px;
+	border-radius: 50px;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -36,7 +43,7 @@
 		padding: 1.2em 0;
 	}
 
-	.sections a {
+	.sections button {
 		font-size: 1em;
 	}
 }
@@ -48,7 +55,7 @@
 		padding: 1em 0;
 	}
 
-	.sections a {
+	.sections button {
 		font-size: 13px;
 	}
 }

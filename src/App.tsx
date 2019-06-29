@@ -7,11 +7,9 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
-import NavigationContextProvider, {
-	NavigationContext
-} from "./contexts/NavigationContext";
+import { NavigationContext, INavigation } from "./contexts/NavigationContext";
 
-const renderSection = (section: string | null): React.ReactNode => {
+const renderSection = (section: string): React.ReactNode => {
 	switch (section) {
 		case "ABOUT":
 			return <About />;
@@ -25,8 +23,7 @@ const renderSection = (section: string | null): React.ReactNode => {
 };
 
 const App: React.FC = () => {
-	const section = useContext(NavigationContext);
-	console.log("log", section);
+	const { section } = useContext<INavigation>(NavigationContext);
 
 	return (
 		<div className="App">

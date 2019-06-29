@@ -1,17 +1,24 @@
 import React, { useContext } from "react";
 import styles from "./styles.module.css";
-import { NavigationContext } from "../../contexts/NavigationContext";
+import {
+	NavigationContext,
+	INavigation
+} from "../../contexts/NavigationContext";
 
 const Sections: React.FC = () => {
-	const section = useContext(NavigationContext);
+	const { navigationToSection } = useContext<INavigation>(NavigationContext);
+
 	return (
 		<nav className={styles.sections}>
-			<a href="/">ABOUT</a>
-			<a href="/" className={styles.selected}>
+			<button onClick={() => navigationToSection("ABOUT")}>ABOUT</button>
+			<button
+				onClick={() => navigationToSection("EXPERIENCE")}
+				className={styles.selected}
+			>
 				EXPERIENCE
-			</a>
-			<a href="/">PROJECTS</a>
-			<a href="/">CONTACT</a>
+			</button>
+			<button onClick={() => navigationToSection("PROJECTS")}>PROJECTS</button>
+			<button onClick={() => navigationToSection("CONTACT")}>CONTACT</button>
 		</nav>
 	);
 };
