@@ -1,14 +1,22 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import styles from "./styles.module.css";
 import { Job } from "..";
+import { ExperienceContext } from "../../../contexts/ExperienceContext";
 
 export type CardProps = {
 	job: Job;
 };
 
 const Card: React.FC<CardProps> = ({ job }) => {
+	const { chooseExeperience } = useContext(ExperienceContext);
+
+	const handleClick = () => {
+		chooseExeperience(job);
+	};
+
 	return (
 		<section
+			onClick={handleClick}
 			className={styles.card}
 			style={{ backgroundColor: job.primaryColor }}
 		>

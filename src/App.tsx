@@ -8,13 +8,18 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import { NavigationContext, INavigation } from "./contexts/NavigationContext";
+import ExperienceContextProvider from "./contexts/ExperienceContext";
 
 const renderSection = (section: string): React.ReactNode => {
 	switch (section) {
 		case "ABOUT":
 			return <About />;
 		case "EXPERIENCE":
-			return <Experience />;
+			return (
+				<ExperienceContextProvider>
+					<Experience />
+				</ExperienceContextProvider>
+			);
 		case "CONTACT":
 			return <Contact />;
 		default:

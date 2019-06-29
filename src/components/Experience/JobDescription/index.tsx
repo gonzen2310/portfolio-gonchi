@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import styles from "./styles.module.css";
 import codecademyLogo from "../../../assets/codecademy-logo.svg";
 import { Job } from "..";
