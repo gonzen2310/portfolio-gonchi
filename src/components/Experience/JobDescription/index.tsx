@@ -54,8 +54,8 @@ const JobDescription: React.FC<JobDescriptionProps> = ({ job }) => {
 			</aside>
 			<aside className={styles["job-description-right"]}>
 				<h1>
-					Software Engineer Intern at
-					<span style={{ color: job.primaryColor }}> Codecademy</span>
+					{job.title} at
+					<span style={{ color: job.primaryColor }}> {job.company}</span>
 				</h1>
 				<div className={styles["job-information"]}>
 					<p>{job.location}</p>
