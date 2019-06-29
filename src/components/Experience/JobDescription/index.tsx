@@ -31,9 +31,9 @@ export type BulletsProps = {
 };
 
 const Bullets: React.FC<BulletsProps> = ({ bullets, color }) => {
-	const list = bullets.map(bullet => {
+	const list = bullets.map((bullet, idx) => {
 		return (
-			<div className={styles["single-bullet"]}>
+			<div key={idx} className={styles["single-bullet"]}>
 				<BulletIcon color={color} />
 				<p>{bullet}</p>
 			</div>
