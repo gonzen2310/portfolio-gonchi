@@ -26,6 +26,13 @@
 	width: 100%;
 }
 
+.contact-wrapper-right p {
+	text-align: justify;
+	line-height: 24px;
+	font-size: 16px;
+	margin-bottom: 2em;
+}
+
 @media only screen and (max-width: 1650px) {
 	.contact {
 		background-image: url("../../assets/contact-bg-md.svg");

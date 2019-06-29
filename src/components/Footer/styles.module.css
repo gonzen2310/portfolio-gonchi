@@ -1,6 +1,7 @@
 .footer {
 	display: grid;
 	grid-template-columns: minmax(10vw, 1fr) minmax(0, 90rem) minmax(10vw, 1fr);
+	margin-top: 2em;
 }
 
 .footer-wrapper {
@@ -36,9 +37,9 @@
 	.footer-wrapper p,
 	.footer-wrapper img {
 		margin: 20px 0;
-    }
-    
-    .footer .footer-wrapper nav a img {
-        margin-right: 10px;
-    }
+	}
+
+	.footer .footer-wrapper nav a img {
+		margin-right: 10px;
+	}
 }

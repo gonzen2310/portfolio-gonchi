@@ -8,17 +8,24 @@ import {
 const Sections: React.FC = () => {
 	const { navigationToSection } = useContext<INavigation>(NavigationContext);
 
+	const handleClick = (e: any) => {
+		navigationToSection(e.target.name.toUpperCase());
+	};
+
 	return (
 		<nav className={styles.sections}>
-			<button onClick={() => navigationToSection("ABOUT")}>ABOUT</button>
-			<button
-				onClick={() => navigationToSection("EXPERIENCE")}
-				className={styles.selected}
-			>
+			<button name="about" onClick={handleClick} className={styles["selected"]}>
+				ABOUT
+			</button>
+			<button name="experience" onClick={handleClick}>
 				EXPERIENCE
 			</button>
-			<button onClick={() => navigationToSection("PROJECTS")}>PROJECTS</button>
-			<button onClick={() => navigationToSection("CONTACT")}>CONTACT</button>
+			<button name="projects" onClick={handleClick}>
+				PROJECTS
+			</button>
+			<button name="contact" onClick={handleClick}>
+				CONTACT
+			</button>
 		</nav>
 	);
 };
