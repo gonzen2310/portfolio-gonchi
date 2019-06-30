@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import bulletIcon from "../../../assets/bullet-icon.svg";
+import { SKILLS } from "../../../constants/aboutContent";
 
 interface SkillsColumnProps {
 	skills: Array<string>;
@@ -17,25 +18,15 @@ const SkillsColumn: React.FC<SkillsColumnProps> = ({ skills }) => {
 };
 
 const Skills: React.FC = () => {
-	const column1 = ["Java", "JavaScript", "C/C++", "Python", "Ruby"];
-	const column2 = ["TypeScript", "HTML5", "CSS3 & SASS", "ReactJS", "NodeJS"];
-	const column3 = ["Redux", "SQL", "Gith & Github", "Android", "Flutter"];
-	const column4 = [
-		"UI/UX design",
-		"MongoDB",
-		"AWS",
-		"Algorithms",
-		"Design Patterns"
-	];
+	const skills: { [x: string]: string[] } = SKILLS;
 
 	return (
 		<div className={styles.skills}>
 			<h1 className={styles.title}>Skills</h1>
 			<div className={styles["skills-container"]}>
-				<SkillsColumn skills={column1} />
-				<SkillsColumn skills={column2} />
-				<SkillsColumn skills={column3} />
-				<SkillsColumn skills={column4} />
+				{Object.keys(skills).map(column => {
+					return <SkillsColumn key={column} skills={skills[column]} />;
+				})}
 			</div>
 		</div>
 	);

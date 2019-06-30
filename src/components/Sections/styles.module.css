@@ -10,18 +10,38 @@
 	border-radius: 100px;
 }
 
-.selected {
+.sections button {
+	font-family: inherit;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #1a1245;
+	font-weight: 500;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.sections button:focus {
+	outline: none;
+}
+
+.sections button.selected {
 	background-color: white;
 	box-sizing: border-box;
 	padding: 10px 15px;
 	border-radius: 50px;
 }
 
-.sections a {
-	text-decoration: none;
-	font-size: 1.5em;
-	color: #1a1245;
-	font-weight: 500;
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + div {
+	padding-top: 60px;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -36,7 +56,7 @@
 		padding: 1.2em 0;
 	}
 
-	.sections a {
+	.sections button {
 		font-size: 1em;
 	}
 }
@@ -48,7 +68,7 @@
 		padding: 1em 0;
 	}
 
-	.sections a {
+	.sections button {
 		font-size: 13px;
 	}
 }

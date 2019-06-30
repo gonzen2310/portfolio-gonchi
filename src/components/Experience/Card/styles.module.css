@@ -1,0 +1,46 @@
+.card {
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	width: 15rem;
+	height: 18rem;
+	border-radius: 15px;
+	justify-content: space-between;
+	margin: 0 auto;
+	transition: box-shadow 0.25s ease-in;
+	cursor: pointer;
+}
+
+.card:hover {
+	box-shadow: -2px 8px 22px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-number {
+	background-color: #325f7d;
+	border-radius: 100px;
+	box-sizing: border-box;
+	padding: 15px;
+	font-weight: bold;
+	width: 50px;
+	margin: 20px;
+	font-size: 1.2em;
+}
+
+.card-content {
+	text-align: left;
+	margin: 0 30px;
+}
+
+.card-company {
+	font-size: 1.5em;
+}
+
+.card-position {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.card-position,
+.card-location {
+	color: rgba(255, 255, 255, 0.7);
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import heartIcon from "../../assets/heart-icon.svg";
-import Contact from "../SocialMedia";
+import SocialMedia from "../SocialMedia";
 
 const Footer: React.FC = () => {
 	return (
@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
 				<p>
 					Made with <img src={heartIcon} alt="Heart icon" /> with ReactJS
 				</p>
-				<Contact />
+				<SocialMedia />
 			</div>
 		</footer>
 	);
