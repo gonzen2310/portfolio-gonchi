@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import styles from "./styles.module.css";
 import {
 	NavigationContext,
@@ -8,22 +8,46 @@ import {
 const Sections: React.FC = () => {
 	const { navigationToSection } = useContext<INavigation>(NavigationContext);
 
+	const [selected, setSelected] = useState({
+		about: true,
+		experience: false,
+		contact: false
+	});
+
 	const handleClick = (e: any) => {
 		navigationToSection(e.target.name.toUpperCase());
+		setSelected({
+			about: false,
+			experience: false,
+			contact: false,
+			[e.target.name]: true
+		});
 	};
 
 	return (
 		<nav className={styles.sections}>
-			<button name="about" onClick={handleClick} className={styles["selected"]}>
+			<button
+				name="about"
+				onClick={handleClick}
+				className={selected.about ? styles["selected"] : ""}
+			>
 				ABOUT
 			</button>
-			<button name="experience" onClick={handleClick}>
+			<button
+				name="experience"
+				onClick={handleClick}
+				className={selected.experience ? styles["selected"] : ""}
+			>
 				EXPERIENCE
 			</button>
-			<button name="projects" onClick={handleClick}>
+			{/* <button name="projects" onClick={handleClick}>
 				PROJECTS
-			</button>
-			<button name="contact" onClick={handleClick}>
+			</button> */}
+			<button
+				name="contact"
+				onClick={handleClick}
+				className={selected.contact ? styles["selected"] : ""}
+			>
 				CONTACT
 			</button>
 		</nav>

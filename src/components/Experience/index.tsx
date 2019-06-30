@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import styles from "./styles.module.css";
-
 import Card from "./Card";
 import JobDescription from "./JobDescription";
 import { EXPERIENCES } from "../../constants/experienceContent";
