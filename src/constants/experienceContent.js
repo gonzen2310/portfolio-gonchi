@@ -16,7 +16,6 @@ export const EXPERIENCES = [
 		secondaryColor: "#325f7d",
 		image: codecademyLogo,
 		bullets: [
-			"This summer I am interning at Codecademy and I am on the growth team",
 			"This summer I am interning at Codecademy and I am on the growth team"
 		]
 	},
