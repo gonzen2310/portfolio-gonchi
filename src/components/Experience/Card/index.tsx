@@ -12,6 +12,7 @@ const Card: React.FC<CardProps> = ({ job }) => {
 
 	const handleClick = () => {
 		chooseExeperience(job);
+		document.location.href = "#sections-bar";
 	};
 
 	return (

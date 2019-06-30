@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./styles.module.css";
-import codecademyLogo from "../../../assets/codecademy-logo.svg";
 import { Job } from "..";
 
 export type BulletIconProps = {
@@ -59,7 +58,7 @@ const JobDescription: React.FC<JobDescriptionProps> = ({ job }) => {
 				</h1>
 				<div className={styles["job-information"]}>
 					<p>{job.location}</p>
-					<p>June 2019 - Present</p>
+					<p>{job.date}</p>
 				</div>
 				<Bullets bullets={job.bullets} color={job.primaryColor} />
 			</aside>

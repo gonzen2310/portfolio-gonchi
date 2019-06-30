@@ -25,7 +25,7 @@ const Sections: React.FC = () => {
 	};
 
 	return (
-		<nav className={styles.sections}>
+		<nav id="sections-bar" className={styles.sections}>
 			<button
 				name="about"
 				onClick={handleClick}

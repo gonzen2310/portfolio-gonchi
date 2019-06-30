@@ -11,6 +11,7 @@ export type Job = {
 	company: string;
 	title: string;
 	location: string;
+	date: string;
 	primaryColor: string;
 	secondaryColor: string;
 	image: string;

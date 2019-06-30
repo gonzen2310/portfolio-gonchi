@@ -12,6 +12,7 @@ const defaultExperience = {
 	company: "Codecademy",
 	title: "SWE Intern",
 	location: "New York, NY",
+	date: "June 2019 - Present",
 	primaryColor: "#204055",
 	secondaryColor: "#325f7d",
 	image: codecademyLogo,

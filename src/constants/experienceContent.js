@@ -11,6 +11,7 @@ export const EXPERIENCES = [
 		company: "Codecademy",
 		title: "SWE Intern",
 		location: "New York, NY",
+		date: "June 2019 - Present",
 		primaryColor: "#204055",
 		secondaryColor: "#325f7d",
 		image: codecademyLogo,
@@ -25,6 +26,7 @@ export const EXPERIENCES = [
 		company: "Coding Hub",
 		title: "President and Cofounder",
 		location: "Plattsburgh, NY",
+		date: "September 2018 - Present",
 		primaryColor: "#FF6975",
 		secondaryColor: "#F8959D",
 		image: codinghubLogo,
@@ -40,6 +42,7 @@ export const EXPERIENCES = [
 		company: "Interbank",
 		title: "Data Analyst Intern",
 		location: "Lima, PE",
+		date: "June 2018 - August 2018",
 		primaryColor: "#00A94E",
 		secondaryColor: "#00C55B",
 		image: interbankLogo,
@@ -55,12 +58,13 @@ export const EXPERIENCES = [
 		company: "CS Department at SUNY Plattsburgh",
 		title: "Teaching Assistant",
 		location: "Plattsburgh, NY",
+		date: "January 2018 - May 2019",
 		primaryColor: "#75DEEC",
 		secondaryColor: "#69C9D6",
 		image: plattsburghLogo,
 		bullets: [
 			"Aid 50+ students in their understanding of core programming concepts and projects using Python and C ",
-			"Hold office hours twice a week and provide one-on-one support to computer science students for CSC221 (Intro to programming) and CSC309 (C language)"
+			"Hold office hours twice a week and provide one-on-one support to computer science students  for CSC221 (Intro to programming) and CSC309 (C language)"
 		]
 	},
 	{
@@ -69,13 +73,13 @@ export const EXPERIENCES = [
 		company: "Claude J. Clark Learning Center",
 		title: "Academic Tutor",
 		location: "Plattsburgh, NY",
+		date: "Spetember 2017 - November 2018",
 		primaryColor: "#F7AA70",
 		secondaryColor: "#F9C299",
 		image: plattsburghLogo,
 		bullets: [
-			"Worked together with Academic Advisor to assemble Burghy, an android application to help students find places on campus using indoor maps",
-			"Submitted weekly detailed reports and documentation",
-			"Presented application to the Computer Science Department"
+			"Assisted students with class material, reviews and assignments",
+			"Tutored over 150 hours in 10 different courses including data structures, algorithms, python, C, C++ and calculus"
 		]
 	},
 	{
@@ -84,12 +88,14 @@ export const EXPERIENCES = [
 		company: "CS Department at SUNY Plattsburgh",
 		title: "Android Developer",
 		location: "Plattsburgh, NY",
+		date: "August 2017 - December 2017",
 		primaryColor: "#747FFF",
 		secondaryColor: "#98A0FC",
 		image: plattsburghLogo,
 		bullets: [
-			"This summer I am interning at Codecademy and I am on the growth team",
-			"This summer I am interning at Codecademy and I am on the growth team"
+			"Worked together with Academic Advisor to assemble Burghy, an android application to help students find places on campus using indoor maps",
+			"Submitted weekly detailed reports and documentation",
+			"Presented application to the Computer Science Department"
 		]
 	}
 ];
