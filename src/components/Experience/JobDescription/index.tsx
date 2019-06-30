@@ -50,7 +50,7 @@ const JobDescription: React.FC<JobDescriptionProps> = ({ job }) => {
 	return (
 		<div className={styles["job-description"]}>
 			<aside className={styles["job-description-left"]}>
-				<img src={codecademyLogo} alt="" />
+				<img src={job.image} alt="" />
 			</aside>
 			<aside className={styles["job-description-right"]}>
 				<h1>

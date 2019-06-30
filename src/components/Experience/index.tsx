@@ -13,6 +13,7 @@ export type Job = {
 	location: string;
 	primaryColor: string;
 	secondaryColor: string;
+	image: string;
 	bullets: string[];
 };
 
