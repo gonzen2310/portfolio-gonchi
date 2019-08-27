@@ -18,14 +18,19 @@ const SkillsColumn: React.FC<SkillsColumnProps> = ({ skills }) => {
 };
 
 const Skills: React.FC = () => {
-	const skills: { [x: string]: string[] } = SKILLS;
+	const skills: { [label: string]: string[] } = SKILLS;
 
 	return (
 		<div className={styles.skills}>
 			<h1 className={styles.title}>Skills</h1>
 			<div className={styles["skills-container"]}>
 				{Object.keys(skills).map(column => {
-					return <SkillsColumn key={column} skills={skills[column]} />;
+					return (
+						<div>
+							<h3 className={styles.headline}>{column}</h3>
+							<SkillsColumn key={column} skills={skills[column]} />
+						</div>
+					);
 				})}
 			</div>
 		</div>

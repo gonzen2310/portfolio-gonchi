@@ -1,20 +1,12 @@
-import uuid from "uuid/v1";
-
 export const SKILLS = {
-	[uuid().toString()]: ["Java", "JavaScript", "C/C++", "Python", "Ruby"],
-	[uuid().toString()]: [
-		"TypeScript",
-		"HTML5",
-		"CSS3 & SASS",
-		"ReactJS",
-		"NodeJS"
-	],
-	[uuid().toString()]: ["Redux", "SQL", "Gith & Github", "Android", "Flutter"],
-	[uuid().toString()]: [
-		"UI/UX design",
-		"MongoDB",
-		"AWS",
+	languages: ["Java", "JS & TS", "Python", "C/C++", "Ruby"],
+	frameworks: ["ReactJS", "Android", "Express", "Rails", "Flutter"],
+	tools: ["Git & Github", "CircleCI", "AWS", "AdobeXd", "Terminal"],
+	others: [
 		"Algorithms",
-		"Design Patterns"
+		"Design Patterns",
+		"Testing",
+		"UI/UX design",
+		"Scripting"
 	]
 };
