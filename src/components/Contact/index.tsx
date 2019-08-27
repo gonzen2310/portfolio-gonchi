@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
 						to share with me please don't hesitate to reach out to me, I would
 						be more than happy to help you and see what we can do together!
 					</p>
-					<Button text="Contact me" />
+					<Button text="Contact me" url={"mailto:reyesegonzalo@gmail.com"} />
 				</div>
 			</div>
 		</div>
