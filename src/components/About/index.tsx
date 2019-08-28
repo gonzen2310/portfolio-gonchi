@@ -1,6 +1,9 @@
 import React from "react";
 import aboutPhoto from "../../assets/about-photo.png";
 import handImg from "../../assets/hand-img.svg";
+// @ts-ignore
+import resume from "../../assets/gonzalo-resume.pdf";
+
 import styles from "./styles.module.css";
 
 import Button from "../Button";
@@ -31,7 +34,7 @@ const About: React.FC = () => {
 						problems at SUNY Plattsburgh. This summer I will be interning at
 						Codecademy!
 					</p>
-					<Button text="Resume" />
+					<Button text="Resume" url={resume} />
 				</div>
 			</section>
 			<Skills />
