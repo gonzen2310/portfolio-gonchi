@@ -6,7 +6,7 @@ import { EXPERIENCES } from "../../constants/experienceContent";
 import { ExperienceContext } from "../../contexts/ExperienceContext";
 
 export type Job = {
-	id?: number;
+	id: number;
 	number: string;
 	company: string;
 	title: string;

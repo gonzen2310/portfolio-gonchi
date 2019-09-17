@@ -1,25 +1,13 @@
 import React, { createContext, useState } from "react";
 import { Job } from "../components/Experience";
-import codecademyLogo from "../assets/codecademy-logo.svg";
+import { EXPERIENCES } from "../constants/experienceContent";
 
 export interface IExperience {
 	currentExperience: Job;
 	chooseExeperience: Function;
 }
 
-const defaultExperience = {
-	number: "01",
-	company: "Codecademy",
-	title: "SWE Intern",
-	location: "New York, NY",
-	date: "June 2019 - Present",
-	primaryColor: "#204055",
-	secondaryColor: "#325f7d",
-	image: codecademyLogo,
-	bullets: [
-		"This summer I am interning at Codecademy and I am on the growth team"
-	]
-};
+const defaultExperience = EXPERIENCES[0];
 
 export const ExperienceContext = createContext<IExperience>({
 	currentExperience: defaultExperience,
