@@ -11,7 +11,7 @@ export const EXPERIENCES = [
 		company: "Codecademy",
 		title: "SWE Intern",
 		location: "New York, NY",
-		date: "June 2019 - Present",
+		date: "June 2019 - August 2019",
 		primaryColor: "#204055",
 		secondaryColor: "#325f7d",
 		image: codecademyLogo,
