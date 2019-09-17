@@ -36,9 +36,12 @@ export const EXPERIENCES = [
 		secondaryColor: "#F8959D",
 		image: codinghubLogo,
 		bullets: [
-			"Lead and collaborate with an agile team of 6 developers to complete 4 major projects in a span of 3 months to assist students and organizations on campus",
-			"Conduct bi-weekly stand-up meetings and manage team by using Asana for assigning and tracking tasks and Slack for communication",
-			"Maintain Github repositories, solve merge conflicts and review pull requests"
+			"Spearhead an agile team of 20 members to plan, build, test and deploy 4 software apps to assist students and organizations on campus",
+            "Establish coding standards and write detailed documentation to make applications maintainable and allow new members to quickly understand and collaborate on the projects",
+            "Successfully explain highly-technical concepts to university staff to gain approval and receive support to deploy our applications",
+            "Conduct bi-weekly stand-up meetings and encourage team collaboration through code reviews, pair programming, and weekly lightning talks",
+            "Introduce and set up CI/CD pipeline with CircleCI in our workflow to improve development speed and ensure code quality",
+            "Introduce and use Slack and Asana for team and project management",
 		]
 	},
 	{
