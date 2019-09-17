@@ -2,7 +2,7 @@ import React from "react";
 import aboutPhoto from "../../assets/about-photo.png";
 import handImg from "../../assets/hand-img.svg";
 // @ts-ignore
-import resume from "../../assets/gonzalo-resume.pdf";
+import resume from "../../assets/resume-gonzalo-reyes.pdf";
 
 import styles from "./styles.module.css";
 
@@ -31,8 +31,7 @@ const About: React.FC = () => {
 						that problem that I grow and develop my coding abilities. Since
 						September 2018 I serve as the president of Coding Hub, an
 						organization that develops web and mobile applications to solve real
-						problems at SUNY Plattsburgh. This summer I will be interning at
-						Codecademy!
+						problems at SUNY Plattsburgh.
 					</p>
 					<Button text="Resume" url={resume} />
 				</div>

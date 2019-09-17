@@ -16,7 +16,13 @@ export const EXPERIENCES = [
 		secondaryColor: "#325f7d",
 		image: codecademyLogo,
 		bullets: [
-			"This summer I am interning at Codecademy and I am on the growth team"
+            "Co-engineered the new Code Challenges feature, an assessment type that allows learners to type and execute code to reinforce their knowledge",
+            "Demoed the Code Challenges MVP to the company stakeholders in the monthly all-hands meeting",
+            "Took initiative and stepped forward to contribute to the migration of React components and Javascript files to Typescript",
+            "Collaborated with designers and engineers to launch a new interactive 404 page that renders a custom endless runner game built with PhaserJS",
+            "Worked on frontend improvements including redesigning the footer and catalog, converting legacy .erb pages to react and fixing accessibility bugs",
+            "Reviewed and tested production-ready code. Utilized Jest and Enzyme for unit and component testing, TestCafe for E2E testing and RSpec for rails",
+            "This summer I am interning at Codecademy and I am on the growth team"
 		]
 	},
 	{
