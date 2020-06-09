@@ -25,6 +25,7 @@
 	border: none;
 	background-color: transparent;
 	cursor: pointer;
+	padding: 10px 15px;
 }
 
 .container button:focus {
@@ -34,7 +35,6 @@
 .container button.selected {
 	background-color: white;
 	box-sizing: border-box;
-	padding: 10px 15px;
 	border-radius: 50px;
 }
 
