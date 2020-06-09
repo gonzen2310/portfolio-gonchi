@@ -11,6 +11,7 @@ import { NavigationContext, INavigation } from "./contexts/NavigationContext";
 import ExperienceContextProvider from "./contexts/ExperienceContext";
 
 const renderSection = (section: string): React.ReactNode => {
+	console.log("SECITON", section)
 	switch (section) {
 		case "ABOUT":
 			return <About />;
