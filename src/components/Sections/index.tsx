@@ -26,30 +26,32 @@ const Sections: React.FC = () => {
 
 	return (
 		<nav id="sections-bar" className={styles.sections}>
-			<button
-				name="about"
-				onClick={handleClick}
-				className={selected.about ? styles["selected"] : ""}
-			>
-				ABOUT
-			</button>
-			<button
-				name="experience"
-				onClick={handleClick}
-				className={selected.experience ? styles["selected"] : ""}
-			>
-				EXPERIENCE
-			</button>
-			{/* <button name="projects" onClick={handleClick}>
-				PROJECTS
-			</button> */}
-			<button
-				name="contact"
-				onClick={handleClick}
-				className={selected.contact ? styles["selected"] : ""}
-			>
-				CONTACT
-			</button>
+			<div className={styles.container}>
+				<button
+					name="about"
+					onClick={handleClick}
+					className={selected.about ? styles["selected"] : ""}
+				>
+					ABOUT
+				</button>
+				<button
+					name="experience"
+					onClick={handleClick}
+					className={selected.experience ? styles["selected"] : ""}
+				>
+					EXPERIENCE
+				</button>
+				{/* <button name="projects" onClick={handleClick}>
+					PROJECTS
+				</button> */}
+				<button
+					name="contact"
+					onClick={handleClick}
+					className={selected.contact ? styles["selected"] : ""}
+				>
+					CONTACT
+				</button>
+			</div>
 		</nav>
 	);
 };

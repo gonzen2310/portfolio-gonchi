@@ -32,15 +32,15 @@
 }
 
 .card-company {
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 .card-position {
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 .card-position,
 .card-location {
-	color: rgba(255, 255, 255, 0.7);
+	color: rgba(255, 255, 255, 0.8);
 }

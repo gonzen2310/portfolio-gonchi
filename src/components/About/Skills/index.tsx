@@ -26,9 +26,9 @@ const Skills: React.FC = () => {
 			<div className={styles["skills-container"]}>
 				{Object.keys(skills).map(column => {
 					return (
-						<div>
+						<div key={column}>
 							<h3 className={styles.headline}>{column}</h3>
-							<SkillsColumn key={column} skills={skills[column]} />
+							<SkillsColumn skills={skills[column]} />
 						</div>
 					);
 				})}

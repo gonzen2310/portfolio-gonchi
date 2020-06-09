@@ -5,6 +5,7 @@
 	padding: 2.83rem 0;
 	box-sizing: border-box;
 	min-height: 100vh;
+	/* max-height: 1000px; */
 	/* TODO: Content moves when height changes */
 }
 
@@ -29,29 +30,35 @@
 
 .landing-img {
 	max-width: 100%;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	-ms-user-drag: none;
+	user-drag: none;
 }
 
 .name {
-	font-size: 9.5em;
+	font-size: 8.3rem;
 	margin: 0;
 	font-weight: 500;
 	color: #1a1245;
 }
 
 .subheaders {
-	font-weight: 300;
+	font-weight: 400;
 	color: rgba(26, 18, 69, 0.75);
 }
 
 @media only screen and (max-width: 1500px) {
 	.name {
-		font-size: 7.8em;
+		font-size: 7.5em;
 	}
 }
 
 @media only screen and (max-width: 1300px) {
 	.name {
-		font-size: 7.5em;
+		font-size: 6.8em;
 	}
 }
 
@@ -65,7 +72,7 @@
 	}
 
 	.left-container {
-		padding: 1em 0;
+		padding: 0 0 1em;
 		margin: 0 auto;
 	}
 
@@ -80,6 +87,7 @@
 
 	.landing-img {
 		max-width: 85%;
+		margin: 0 auto;
 	}
 }
 
@@ -93,7 +101,7 @@
 	}
 
 	.name {
-		font-size: 7em;
+		font-size: 6.7em;
 	}
 
 	.subheaders {
@@ -103,10 +111,14 @@
 
 @media only screen and (max-width: 600px) {
 	.name {
-		font-size: 5em;
+		font-size: 4.5em;
 	}
 
 	.subheaders {
 		font-size: 1.2em;
+	}
+
+	.left-container {
+		max-width: 100%;
 	}
 }

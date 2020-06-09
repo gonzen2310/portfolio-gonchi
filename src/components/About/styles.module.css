@@ -7,6 +7,7 @@
 	display: flex;
 	grid-column: 2;
 	margin: 4em auto;
+	padding: 1.2em 0;
 }
 
 .container div {

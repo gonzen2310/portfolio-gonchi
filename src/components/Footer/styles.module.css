@@ -12,9 +12,15 @@
 	grid-column: 2;
 }
 
+
+.footer-wrapper h1 {
+	font-size: 1.8rem;
+}
+
 .footer-wrapper p {
 	display: flex;
 	align-items: center;
+	font-size: 0.9rem;
 }
 
 .footer-wrapper p img {
