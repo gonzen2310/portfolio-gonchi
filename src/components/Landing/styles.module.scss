@@ -22,12 +22,18 @@
 		.subheader {
 			font-weight: weight(light);
 			font-size: size($font-sizes-mobile, text);
-			margin: 2rem 0;
+			margin: 1.2rem 0;
+			line-height: 1.25rem;
+		}
+
+		img {
+			width: 1.5rem;
+			vertical-align: bottom;
 		}
 	}
 
 	.right {
-		img {
+		.landingImg {
 			max-width: 100%;
 		}
 	}

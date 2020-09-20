@@ -1,9 +1,14 @@
-import React, { useContext, useState } from "react";
-import styles from "./styles.module.css";
-import {
-	NavigationContext,
-	INavigation
-} from "../../contexts/NavigationContext";
+import React, { useContext, useState } from 'react';
+import s from './styles.module.scss';
+import { NavigationContext, INavigation } from '../../contexts/NavigationContext';
+import ContentWrapper from '../ContentWrapper';
+
+import aboutIcon from '../../assets/about-icon.svg';
+import experienceIcon from '../../assets/experience-icon.svg';
+import projectsIcon from '../../assets/projects-icon.svg';
+import contactIcon from '../../assets/contact-icon.svg';
+
+// import icons
 
 const Sections: React.FC = () => {
 	const { navigationToSection } = useContext<INavigation>(NavigationContext);
@@ -11,7 +16,7 @@ const Sections: React.FC = () => {
 	const [selected, setSelected] = useState({
 		about: true,
 		experience: false,
-		contact: false
+		contact: false,
 	});
 
 	const handleClick = (e: any) => {
@@ -20,26 +25,26 @@ const Sections: React.FC = () => {
 			about: false,
 			experience: false,
 			contact: false,
-			[e.target.name]: true
+			[e.target.name]: true,
 		});
 	};
 
 	return (
-		<nav id="sections-bar" className={styles.sections}>
-			<div className={styles.container}>
+		<ContentWrapper>
+			<nav className={s.sections}>
 				<button
 					name="about"
 					onClick={handleClick}
-					className={selected.about ? styles["selected"] : ""}
+					className={selected.about ? s['selected'] : ''}
 				>
-					ABOUT
+					<img src={aboutIcon} alt="Landing profile" />
 				</button>
 				<button
 					name="experience"
 					onClick={handleClick}
-					className={selected.experience ? styles["selected"] : ""}
+					className={selected.experience ? s['selected'] : ''}
 				>
-					EXPERIENCE
+					<img src={experienceIcon} alt="Landing profile" />
 				</button>
 				{/* <button name="projects" onClick={handleClick}>
 					PROJECTS
@@ -47,12 +52,12 @@ const Sections: React.FC = () => {
 				<button
 					name="contact"
 					onClick={handleClick}
-					className={selected.contact ? styles["selected"] : ""}
+					className={selected.contact ? s['selected'] : ''}
 				>
-					CONTACT
+					<img src={contactIcon} alt="Landing profile" />
 				</button>
-			</div>
-		</nav>
+			</nav>
+		</ContentWrapper>
 	);
 };
 
