@@ -1,38 +1,27 @@
-import React from "react";
-import landingImage from "../../assets/landing-img.svg";
-import navLogo from "../../assets/nav-logo.png";
-import SocialMedia from "../SocialMedia";
-import styles from "./styles.module.css";
-
-const Navbar: React.FC = () => (
-	<nav className={styles.navbar}>
-		<img src={navLogo} alt="Navigation bar logo" />
-	</nav>
-);
+import React from 'react';
+import landingImage from '../../assets/landing-img.svg';
+import ContentWrapper from '../ContentWrapper';
+import SocialMedia from '../SocialMedia';
+import s from './styles.module.scss';
 
 const Landing: React.FC = () => {
 	return (
-		<div className={styles.landing}>
-			<Navbar />
-			<header className={styles.container}>
-				<section className={styles["left-container"]}>
-					<h2 className={styles.subheaders}>Hi, I'm</h2>
-					<h1 className={styles.name}>Gonchi</h1>
-					<h2 className={styles.subheaders}>
+		<ContentWrapper>
+			<div className={s.landing}>
+				<section className={s.left}>
+					<h2 className={s.subheader}>Hi! I am</h2>
+					<h1 className={s.name}>Gonchi</h1>
+					<h2 className={s.subheader}>
 						Web & Android developer <br />
 						UI/UX designer
 					</h2>
-					<SocialMedia />
+					{/* <SocialMedia /> */}
 				</section>
-				<section className={styles["right-container"]}>
-					<img
-						className={styles["landing-img"]}
-						src={landingImage}
-						alt="Landing profile"
-					/>
+				<section className={s.right}>
+					<img className={s['landing-img']} src={landingImage} alt="Landing profile" />
 				</section>
-			</header>
-		</div>
+			</div>
+		</ContentWrapper>
 	);
 };
 
