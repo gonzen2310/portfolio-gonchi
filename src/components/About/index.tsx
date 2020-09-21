@@ -38,7 +38,6 @@ const About: React.FC = () => {
 						<Button text="Resume" url={resume} />
 					</div>
 				</section>
-				<Subtitle text="Skills" />
 				<Skills />
 			</div>
 		</ContentWrapper>

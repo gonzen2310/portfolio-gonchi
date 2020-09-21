@@ -1,7 +1,8 @@
 import React from 'react';
-import styles from './styles.module.css';
+import s from './styles.module.scss';
 import bulletIcon from '../../../assets/bullet-icon.svg';
 import { SKILLS } from '../../../constants/aboutContent';
+import Subtitle from '../../Subtitle';
 
 interface SkillsColumnProps {
 	skills: Array<string>;
@@ -9,24 +10,25 @@ interface SkillsColumnProps {
 
 const SkillsColumn: React.FC<SkillsColumnProps> = ({ skills }) => {
 	const skillsList = skills.map((skill) => (
-		<div key={skill} className={styles.bullet}>
-			<img src={bulletIcon} alt="bullet" /> <p>{skill}</p>
+		<div key={skill}>
+			<p>{skill}</p>
 		</div>
 	));
 
-	return <div className={styles['skills-list-container']}>{skillsList}</div>;
+	return <div className={s.skillsContainer}>{skillsList}</div>;
 };
 
 const Skills: React.FC = () => {
 	const skills: { [label: string]: string[] } = SKILLS;
 
 	return (
-		<div className={styles.skills}>
-			<div className={styles['skills-container']}>
+		<div className={s.skills}>
+			<Subtitle text="Skills" />
+			<div className={s.container}>
 				{Object.keys(skills).map((column) => {
 					return (
-						<div key={column}>
-							<h3 className={styles.headline}>{column}</h3>
+						<div className={s.column} key={column}>
+							<h3 className={s.headline}>{column}</h3>
 							<SkillsColumn skills={skills[column]} />
 						</div>
 					);

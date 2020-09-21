@@ -1,0 +1,104 @@
+@import '../../../styles/text';
+@import '../../../styles/colors';
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	margin: 0 auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	.column {
+		margin-bottom: 2rem;
+		width: 50%;
+	}
+
+	.headline {
+		text-transform: capitalize;
+		font-weight: weight(medium);
+		text-align: center;
+		margin-bottom: 1rem;
+		position: relative;
+		color: $pale-green;
+
+		/* TODO: Maybe update this underline */
+		// &::after {
+		// 	content: '';
+		// 	width: 100%-20%;
+		// 	height: 5px;
+		// 	background-color: rgba(90, 209, 168, 0.54);
+		// 	position: absolute;
+		// 	bottom: -5px;
+		// 	z-index: -1;
+		// 	border-radius: 100rem;
+		// 	left: 50%;
+		// 	margin-left: -40%;
+		// }
+	}
+	.skillsContainer {
+		text-align: center;
+
+		p {
+			margin-bottom: 1.2rem;
+		}
+	}
+}
+
+// .skills-container div {
+// 	margin-right: 30px;
+// }
+
+// .skills-container div:last-child {
+// 	margin-right: 0px;
+// }
+
+// .headline {
+// 	text-transform: capitalize;
+// 	font-size: 1.1rem;
+// }
+
+// @media only screen and (max-width: 700px) {
+// 	.skills-container {
+// 		flex-direction: row;
+// 		flex-wrap: wrap;
+// 		justify-content: space-between;
+// 	}
+
+// 	.skills-container div {
+// 		margin: 0 auto;
+// 		width: 50%;
+// 	}
+
+// 	.skills-container div:last-child {
+// 		margin-right: auto;
+// 	}
+
+// 	.skills-container .bullet {
+// 		width: 100%;
+// 	}
+// }
+
+// @media only screen and (max-width: 515px) {
+// 	.bullet {
+// 		font-size: 0.9rem;
+// 	}
+// }
+
+// @media only screen and (max-width: 360px) {
+// 	.skills-container {
+// 		flex-direction: row;
+// 		flex-wrap: wrap;
+// 		justify-content: space-between;
+// 	}
+
+// 	.skills-container div {
+// 		margin-right: 0;
+// 		width: 100%;
+// 		flex: 1 1;
+// 	}

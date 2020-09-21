@@ -10,6 +10,7 @@
 	.who {
 		display: flex;
 		flex-direction: column-reverse;
+		margin-bottom: 2rem;
 
 		.left {
 			display: flex;
@@ -18,10 +19,16 @@
 		}
 
 		.right {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 2rem;
+
 			.textContent {
 				font-weight: weight(light);
 				font-size: size($font-sizes-mobile, text);
 				line-height: 1.4rem;
+				margin-bottom: 1rem;
 
 				.yelp {
 					color: $yelp-red;
