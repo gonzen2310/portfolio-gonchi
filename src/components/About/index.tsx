@@ -19,7 +19,7 @@ const About: React.FC = () => {
 						<img src={aboutPhoto} alt="Gonzalo Reyes Profile" />
 					</div>
 					<div className={s.right}>
-						<Subtitle text="Who am I" />
+						<Subtitle text="Who I am" />
 						<p className={s.textContent}>
 							Hello, there! I’m Gonzalo, aka Gonchi, a software engineer in Rochester, NY
 							who enjoys crafting beautiful high-performing web and mobile apps for fun
@@ -27,13 +27,13 @@ const About: React.FC = () => {
 							especially related to community building, finance and education.
 						</p>
 						<p className={s.textContent}>
-							I am currently working at{' '}
+							Currently, I am a full-stack software engineer at{' '}
 							<a href="https://www.yelp.com" className={s.yelp}>
 								Yelp
 							</a>{' '}
-							on the Ads Experience Team as a full-stack software engineer. Apart from
-							coding, I am interested in UI/UX design, I like to play soccer, play with my
-							dog and I love boba tea. Feel free to check out my resume!
+							working on the Ads Experience Team. Apart from coding, I am interested in
+							UI/UX design, I like to play soccer, play with my dog and I love boba tea.
+							Feel free to check out my resume!
 						</p>
 						<Button text="Resume" url={resume} />
 					</div>
