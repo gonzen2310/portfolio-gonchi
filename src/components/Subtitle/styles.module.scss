@@ -1,0 +1,7 @@
+@import '../../styles/text';
+
+.subtitle {
+	font-size: size($font-sizes-mobile, subtitle);
+	font-weight: weight(medium);
+	margin: 2rem 0;
+}
