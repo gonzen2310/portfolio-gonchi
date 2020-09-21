@@ -4,17 +4,21 @@
 	display: flex;
 	justify-content: space-between;
 	background-color: $pale-yellow;
-	width: 80%;
+	width: 85%;
 	border-radius: 0.8rem;
 	box-sizing: border-box;
 	margin: 1rem auto;
-	padding: 1rem 1.5rem;
+	padding: 0.8rem 1.5rem;
 
 	button {
 		background-color: transparent;
 		border: none;
+		padding: 0.6rem 0.8rem;
+		border-radius: 0.5rem;
 	}
 
-	img {
+	.selected {
+		box-sizing: border-box;
+		background-color: $white;
 	}
 }
