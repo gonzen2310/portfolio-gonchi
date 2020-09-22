@@ -1,3 +1,35 @@
-$regular: /*               */ 1rem;
-$title: /*                 */ 2.5rem;
-$subtitle: /*              */ 2rem;
+$font-weights: (
+	'light': 200,
+	'regular': 400,
+	'medium': 500,
+	'bold': 700,
+);
+
+$font-sizes-mobile: (
+	'name': 4.5em,
+	'subtitle': 1.9rem,
+	'text': 1rem,
+	'navText': 1.5rem,
+);
+
+$font-sizes-desktop: (
+	'name': 5.5em,
+	'subtitle': 3rem,
+	'text': 1.05rem,
+	'navText': 3rem,
+);
+
+$font-sizes-large-desktop: (
+	'name': 7.5em,
+	'subtitle': 3.5rem,
+	'text': 1.2rem,
+	'navText': 3rem,
+);
+
+@function weight($weight-name) {
+	@return map-get($font-weights, $weight-name);
+}
+
+@function size($platform, $text-type) {
+	@return map-get($platform, $text-type);
+}

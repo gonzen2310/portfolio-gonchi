@@ -1,0 +1,23 @@
+@import './styles/reset';
+@import './styles/breakpoints';
+@import './styles/colors';
+@import './styles/text';
+
+* {
+	font-family: -apple-system, Montserrat, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif !important;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.app {
+	display: grid;
+	grid-template-columns: minmax(0, 0) minmax(0, 100%) minmax(0, 0);
+
+	@include media('>=desktop') {
+		display: grid;
+		grid-template-columns: minmax(10vw, 1fr) minmax(0, 90rem) minmax(10vw, 1fr);
+	}
+}
