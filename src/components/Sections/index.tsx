@@ -38,6 +38,7 @@ const Sections: React.FC = () => {
 					className={selected.about ? s.selected : ''}
 				>
 					<img src={aboutIcon} alt="Landing profile" />
+					<p>ABOUT</p>
 				</button>
 				<button
 					name="experience"
@@ -45,6 +46,7 @@ const Sections: React.FC = () => {
 					className={selected.experience ? s.selected : ''}
 				>
 					<img src={experienceIcon} alt="Landing profile" />
+					<p>EXPERIENCE</p>
 				</button>
 				{/* <button name="projects" onClick={handleClick}>
 					PROJECTS
@@ -55,6 +57,7 @@ const Sections: React.FC = () => {
 					className={selected.contact ? s.selected : ''}
 				>
 					<img src={contactIcon} alt="Landing profile" />
+					<p>CONTACT ME</p>
 				</button>
 			</nav>
 		</ContentWrapper>

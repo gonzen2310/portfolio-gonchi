@@ -1,4 +1,6 @@
 @import '../../styles/colors';
+@import '../../styles/breakpoints';
+@import '../../styles/text';
 
 .sections {
 	display: flex;
@@ -11,14 +13,51 @@
 	padding: 0.8rem 1.5rem;
 
 	button {
+		display: flex;
+		align-items: center;
 		background-color: transparent;
 		border: none;
 		padding: 0.6rem 0.8rem;
 		border-radius: 0.5rem;
+
+		p {
+			display: none;
+		}
 	}
 
 	.selected {
 		box-sizing: border-box;
 		background-color: $white;
+	}
+
+	@include media('>=tablet') {
+		width: 70%;
+		button {
+			img {
+				margin-right: 20px;
+			}
+			p {
+				display: inline-block;
+			}
+		}
+	}
+
+	@include media('>=desktop') {
+		width: 85%;
+	}
+
+	@include media('>=large-desktop') {
+		width: 70%;
+		padding: 1.2rem 2rem;
+
+		button {
+			img {
+				margin-right: 20px;
+			}
+			p {
+				font-weight: weight(regular);
+				font-size: size($font-sizes-desktop, navText);
+			}
+		}
 	}
 }
