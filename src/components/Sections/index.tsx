@@ -5,7 +5,7 @@ import ContentWrapper from '../ContentWrapper';
 
 import aboutIcon from '../../assets/about-icon.svg';
 import experienceIcon from '../../assets/experience-icon.svg';
-import projectsIcon from '../../assets/projects-icon.svg';
+// import projectsIcon from '../../assets/projects-icon.svg';
 import contactIcon from '../../assets/contact-icon.svg';
 
 // import icons
@@ -20,12 +20,12 @@ const Sections: React.FC = () => {
 	});
 
 	const handleClick = (e: any) => {
-		navigationToSection(e.target.name.toUpperCase());
+		// navigationToSection(e.target.name.toUpperCase());
 		setSelected({
 			about: false,
 			experience: false,
 			contact: false,
-			[e.target.name]: true,
+			[e.target.dataset.name]: true,
 		});
 	};
 
@@ -33,31 +33,31 @@ const Sections: React.FC = () => {
 		<ContentWrapper>
 			<nav className={s.sections}>
 				<button
-					name="about"
+					data-name="about"
 					onClick={handleClick}
 					className={selected.about ? s.selected : ''}
 				>
-					<img src={aboutIcon} alt="Landing profile" />
-					<p>ABOUT</p>
+					<img data-name="about" src={aboutIcon} alt="Landing profile" />
+					<p data-name="about">ABOUT</p>
 				</button>
 				<button
-					name="experience"
+					data-name="experience"
 					onClick={handleClick}
 					className={selected.experience ? s.selected : ''}
 				>
-					<img src={experienceIcon} alt="Landing profile" />
-					<p>EXPERIENCE</p>
+					<img data-name="experience" src={experienceIcon} alt="Landing profile" />
+					<p data-name="experience">EXPERIENCE</p>
 				</button>
 				{/* <button name="projects" onClick={handleClick}>
 					PROJECTS
 				</button> */}
 				<button
-					name="contact"
+					data-name="contact"
 					onClick={handleClick}
 					className={selected.contact ? s.selected : ''}
 				>
-					<img src={contactIcon} alt="Landing profile" />
-					<p>CONTACT ME</p>
+					<img data-name="contact" src={contactIcon} alt="Landing profile" />
+					<p data-name="contact">CONTACT ME</p>
 				</button>
 			</nav>
 		</ContentWrapper>

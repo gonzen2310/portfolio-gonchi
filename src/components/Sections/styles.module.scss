@@ -16,10 +16,11 @@
 		display: flex;
 		align-items: center;
 		background-color: transparent;
-		border: none;
+		border: 2px solid transparent;
 		padding: 0.6rem 0.8rem;
 		border-radius: 0.5rem;
-
+		outline: none;
+		cursor: pointer;
 		p {
 			display: none;
 		}
@@ -28,6 +29,7 @@
 	.selected {
 		box-sizing: border-box;
 		background-color: $white;
+		border: 2px solid #ffdc92;
 	}
 
 	@include media('>=tablet') {
@@ -61,3 +63,8 @@
 		}
 	}
 }
+
+// .sticky {
+// 	position: fixed;
+// 	top: 0;
+// }
