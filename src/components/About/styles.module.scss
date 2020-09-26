@@ -1,5 +1,6 @@
 @import '../../styles/text';
 @import '../../styles/colors';
+@import '../../styles/breakpoints';
 
 .about {
 	display: flex;
@@ -34,6 +35,34 @@
 					color: $yelp-red;
 					font-weight: weight(bold);
 					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	@include media('>=tablet') {
+		.who {
+			.right {
+				.textContent {
+					font-size: size($font-sizes-mobile, text);
+					line-height: 1.2rem;
+					width: 70%;
+				}
+			}
+		}
+	}
+
+	@include media('>=desktop') {
+		.who {
+			display: grid;
+			grid-template-columns: 5fr 7fr;
+			grid-column-gap: 3rem;
+
+			.right {
+				.textContent {
+					font-size: size($font-sizes-desktop, text);
+					line-height: 1.5rem;
+					width: 90%;
 				}
 			}
 		}
