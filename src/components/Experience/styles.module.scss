@@ -1,0 +1,18 @@
+.experience {
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.5rem;
+
+	.carouselWrapper {
+		width: 80%;
+		position: relative;
+		display: grid;
+		border-radius: 0.5rem;
+	}
+}

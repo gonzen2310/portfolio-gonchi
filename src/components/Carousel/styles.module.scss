@@ -1,0 +1,66 @@
+@import '../../styles/text';
+@import '../../styles/colors';
+@import '../../styles/breakpoints';
+
+.carousel {
+	width: 100%;
+	grid-area: 1 / 1 / 2 / 2;
+	border-radius: 0.5rem;
+
+	.content {
+		width: 70%;
+		margin: 5rem auto;
+		min-height: 30rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		ul {
+			list-style: disc;
+		}
+
+		.header {
+			font-size: size($font-sizes-large-desktop, cardTitle);
+			margin-bottom: 2rem;
+
+			span {
+				color: $bright-green;
+			}
+		}
+
+		.bullet {
+			line-height: 1.4rem;
+			margin-bottom: 0.5rem;
+			font-weight: weight(light);
+			font-size: size($font-sizes-large-desktop, cardText);
+		}
+	}
+}
+
+.next,
+.prev {
+	top: calc(50% - 20px);
+	position: absolute;
+	display: flex;
+	height: 2.5rem;
+	width: 2.5rem;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	z-index: 2;
+	border-radius: 0.8rem;
+	img {
+		height: 1.2rem;
+	}
+}
+
+.next {
+	right: 2rem;
+}
+
+.prev {
+	left: 2rem;
+}

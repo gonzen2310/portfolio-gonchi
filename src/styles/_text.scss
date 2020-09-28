@@ -3,6 +3,7 @@ $font-weights: (
 	'regular': 400,
 	'medium': 500,
 	'bold': 700,
+	'cardText': 1.1rem,
 );
 
 $font-sizes-mobile: (
@@ -10,6 +11,8 @@ $font-sizes-mobile: (
 	'subtitle': 1.9rem,
 	'text': 1rem,
 	'navText': 1.1rem,
+	'cardTitle': 2rem,
+	'cardText': 1.1rem,
 );
 
 $font-sizes-desktop: (
@@ -17,13 +20,17 @@ $font-sizes-desktop: (
 	'subtitle': 3rem,
 	'text': 1.05rem,
 	'navText': 1.12rem,
+	'cardTitle': 2rem,
+	'cardText': 1.1rem,
 );
 
 $font-sizes-large-desktop: (
 	'name': 7.5em,
-	'subtitle': 3.5rem,
+	'subtitle': 3rem,
 	'text': 1.2rem,
 	'navText': 3rem,
+	'cardTitle': 2rem,
+	'cardText': 1.08rem,
 );
 
 @function weight($weight-name) {
