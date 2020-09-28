@@ -8,13 +8,13 @@ import rightArrow from '../../assets/arrow-right.svg';
 
 export type Job = {
 	id: number;
-	number: string;
 	company: string;
 	title: string;
 	location: string;
 	date: string;
 	primaryColor: string;
 	secondaryColor: string;
+	contrastTextColor: string;
 	bullets: string[];
 };
 
@@ -83,7 +83,10 @@ const Carousel: React.FC = () => {
 					<div className={s.content}>
 						<p className={s.header}>
 							{experiences[experienceIndex].title} @
-							<span> {experiences[experienceIndex].company}</span>
+							<span style={{ color: experiences[experienceIndex].contrastTextColor }}>
+								{' '}
+								{experiences[experienceIndex].company}
+							</span>
 						</p>
 						<ul>
 							{experiences[experienceIndex].bullets.map((bullet, idx) => {

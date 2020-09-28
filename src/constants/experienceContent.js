@@ -2,13 +2,31 @@ import uuid from 'uuid/v1';
 export const EXPERIENCES = [
 	{
 		id: uuid(),
-		number: '01',
+		company: 'Codepath',
+		title: 'Android Teaching Assistant',
+		location: 'US Remote',
+		date: 'February 2020 - May 2020',
+		primaryColor: '#00B27C',
+		secondaryColor: '#45D8AA',
+		contrastTextColor: '#314850',
+		bullets: [
+			'Co-engineered the new Code Challenges feature, an assessment type that allows learners to type and execute code to reinforce their knowledge',
+			'Demoed the Code Challenges MVP to the company stakeholders in the monthly all-hands meeting',
+			'Took initiative and stepped forward to contribute to the migration of React components and Javascript files to Typescript',
+			'Collaborated with designers and engineers to launch a new interactive 404 page that renders a custom endless runner game built with PhaserJS',
+			'Worked on frontend improvements including redesigning the footer and catalog, converting legacy .erb pages to react and fixing accessibility bugs',
+			'Reviewed and tested production-ready code. Utilized Jest and Enzyme for unit and component testing, TestCafe for E2E testing and RSpec for rails',
+		],
+	},
+	{
+		id: uuid(),
 		company: 'Codecademy',
 		title: 'SWE Intern',
 		location: 'New York, NY',
 		date: 'June 2019 - August 2019',
 		primaryColor: '#204055',
 		secondaryColor: '#325f7d',
+		contrastTextColor: '#5FE6CA',
 		bullets: [
 			'Co-engineered the new Code Challenges feature, an assessment type that allows learners to type and execute code to reinforce their knowledge',
 			'Demoed the Code Challenges MVP to the company stakeholders in the monthly all-hands meeting',
@@ -21,13 +39,13 @@ export const EXPERIENCES = [
 	},
 	{
 		id: uuid(),
-		number: '02',
 		company: 'Coding Hub',
 		title: 'President and Cofounder',
 		location: 'Plattsburgh, NY',
 		date: 'September 2018 - Present',
 		primaryColor: '#E66363',
 		secondaryColor: '#F8959D',
+		contrastTextColor: '#FF8785',
 		bullets: [
 			'Spearhead an agile team of 20 members to plan, build, test and deploy 4 software apps to assist students and organizations on campus',
 			'Establish coding standards and write detailed documentation to make applications maintainable and allow new members to quickly understand and collaborate on the projects',
@@ -39,13 +57,13 @@ export const EXPERIENCES = [
 	},
 	{
 		id: uuid(),
-		number: '03',
 		company: 'Interbank',
 		title: 'Data Analyst Intern',
 		location: 'Lima, PE',
 		date: 'June 2018 - August 2018',
 		primaryColor: '#09A24F',
 		secondaryColor: '#00C55B',
+		contrastTextColor: '#0339A6',
 		bullets: [
 			'Developed a supervised ML text classifier with python to process customer reviews with an accuracy of 92% as measured by a confusion matrix',
 			'Built over 15 fully responsive in-apps and pop-ups for the bank app and website using HTML5, CSS3 and vanilla JS for A/B testing and experiments',
@@ -54,13 +72,13 @@ export const EXPERIENCES = [
 	},
 	{
 		id: uuid(),
-		number: '04',
 		company: 'Claude J. Clark Learning Center',
 		title: 'Academic Tutor',
 		location: 'Plattsburgh, NY',
 		date: 'Spetember 2017 - November 2018',
 		primaryColor: '#F7AA70',
 		secondaryColor: '#F9C299',
+		contrastTextColor: '#ffffff',
 		bullets: [
 			'Assisted students with class material, reviews and assignments',
 			'Tutored over 150 hours in 10 different courses including data structures, algorithms, python, C, C++ and calculus',
@@ -68,13 +86,13 @@ export const EXPERIENCES = [
 	},
 	{
 		id: uuid(),
-		number: '05',
 		company: 'CS Department at SUNY Plattsburgh',
 		title: 'Android Developer',
 		location: 'Plattsburgh, NY',
 		date: 'August 2017 - December 2017',
 		primaryColor: '#006DB9',
 		secondaryColor: '#1381C6',
+		contrastTextColor: '#ffffff',
 		bullets: [
 			'Worked together with Academic Advisor to assemble Burghy, an android application to help students find places on campus using indoor maps',
 			'Submitted weekly detailed reports and documentation',
