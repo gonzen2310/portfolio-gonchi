@@ -29,6 +29,7 @@ const App: React.FC = () => {
 			<Landing />
 			<Sections />
 			{renderSection(section)}
+
 			<Footer />
 		</div>
 	);
