@@ -1,6 +1,5 @@
 import React from 'react';
 import aboutPhoto from '../../assets/about-photo.svg';
-import handImg from '../../assets/hand-icon.svg';
 // @ts-ignore
 import resume from '../../assets/resume-gonzalo-reyes.pdf';
 import s from './styles.module.scss';

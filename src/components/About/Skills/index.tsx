@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './styles.module.scss';
-import bulletIcon from '../../../assets/bullet-icon.svg';
 import { SKILLS } from '../../../constants/aboutContent';
 import Subtitle from '../../Subtitle';
 
