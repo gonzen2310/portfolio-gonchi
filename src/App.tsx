@@ -28,12 +28,7 @@ const App: React.FC = () => {
 		<div className="app">
 			<Landing />
 			<Sections />
-			{/* <About /> */}
-			<Experience />
-
-			{/* 
 			{renderSection(section)}
-			*/}
 			<Footer />
 		</div>
 	);

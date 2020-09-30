@@ -8,8 +8,6 @@ import experienceIcon from '../../assets/experience-icon.svg';
 // import projectsIcon from '../../assets/projects-icon.svg';
 import contactIcon from '../../assets/contact-icon.svg';
 
-// import icons
-
 const Sections: React.FC = () => {
 	const { navigationToSection } = useContext<INavigation>(NavigationContext);
 
@@ -20,7 +18,7 @@ const Sections: React.FC = () => {
 	});
 
 	const handleClick = (e: any) => {
-		// navigationToSection(e.target.name.toUpperCase());
+		navigationToSection(e.target.dataset.name.toUpperCase());
 		setSelected({
 			about: false,
 			experience: false,
