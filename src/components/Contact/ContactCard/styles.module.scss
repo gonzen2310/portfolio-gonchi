@@ -1,0 +1,20 @@
+@import '../../../styles/colors';
+
+.contactCard {
+	height: 7rem;
+	width: 7rem;
+	background-color: $light-grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 1rem;
+
+	.imgContent {
+		height: 6rem;
+	}
+
+	.textContent {
+		font-size: 3.5rem;
+		font-weight: bold;
+	}
+}
