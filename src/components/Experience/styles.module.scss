@@ -12,23 +12,29 @@
 	border-radius: 0.5rem;
 
 	.carouselWrapper {
-		margin: 0 1rem;
-		width: 100%;
+		width: 90%;
 		position: relative;
 		display: grid;
+		box-sizing: border-box;
 		border-radius: 0.5rem;
+		// padding: 0 0.8rem;
 	}
 
-	@include media('>=desktop') {
+	@include media('>=tablet') {
 		.carouselWrapper {
 			width: 80%;
 		}
 	}
-	/* DESKTOP */
-	// .carouselWrapper {
-	// 	width: 80%;
-	// 	position: relative;
-	// 	display: grid;
-	// 	border-radius: 0.5rem;
-	// }
+
+	@include media('>=desktop') {
+		.carouselWrapper {
+			width: 87%;
+		}
+	}
+
+	@include media('>=large-desktop') {
+		.carouselWrapper {
+			width: 70%;
+		}
+	}
 }
