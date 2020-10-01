@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./styles.module.css";
+import React from 'react';
+import s from './styles.module.scss';
 
 interface ButtonProps {
 	text: string;
@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ text, url }) => {
 	return (
-		<a className={styles.button} href={url}>
+		<a className={s.button} href={url}>
 			{text}
 		</a>
 	);

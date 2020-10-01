@@ -1,0 +1,23 @@
+@import '../../styles/colors';
+@import '../../styles/text';
+
+.button {
+	background-color: $white;
+	color: $pale-green;
+	border: 1px solid $pale-green;
+	font-size: size($font-sizes-mobile, text);
+	font-weight: weight(regular);
+	box-sizing: border-box;
+	padding: 15px 40px;
+	border-radius: 5px;
+	margin: 1em;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	transition: all 0.5s ease-in-out;
+
+	&:hover {
+		background-color: $pale-green;
+		color: $white;
+	}
+}

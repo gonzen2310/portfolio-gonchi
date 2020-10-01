@@ -1,38 +1,49 @@
-import React, { useContext } from "react";
-import styles from "./styles.module.css";
-import Card from "./Card";
-import JobDescription from "./JobDescription";
-import { EXPERIENCES } from "../../constants/experienceContent";
-import { ExperienceContext } from "../../contexts/ExperienceContext";
+import React from 'react';
+import s from './styles.module.scss';
+import ContentWrapper from '../ContentWrapper';
+import Subtitle from '../Subtitle';
+import Carousel from '../Carousel';
+import { motion, AnimatePresence } from 'framer-motion';
 
-export type Job = {
-	id: number;
-	number: string;
-	company: string;
-	title: string;
-	location: string;
-	date: string;
-	primaryColor: string;
-	secondaryColor: string;
-	image: string;
-	bullets: string[];
+const variants = {
+	enter: {
+		scale: 0,
+		opacity: 0,
+	},
+	animate: {
+		scale: 1,
+		opacity: 1,
+	},
+	exit: {
+		scale: 0,
+		opacity: 0,
+	},
 };
 
 const Experience: React.FC = () => {
-	const experiences: Job[] = EXPERIENCES;
-	const { currentExperience } = useContext(ExperienceContext);
-
 	return (
-		<div className={styles.experience}>
-			<div className={styles["experience-wrapper"]}>
-				<JobDescription job={currentExperience} />
-				<div className={styles["experience-wrapper-cards"]}>
-					{experiences.map(experience => {
-						return <Card key={experience.id} job={experience} />;
-					})}
-				</div>
-			</div>
-		</div>
+		<ContentWrapper>
+			<AnimatePresence>
+				<motion.div
+					key="experience"
+					className={s.experience}
+					variants={variants}
+					initial="enter"
+					animate="animate"
+					exit="exit"
+					transition={{
+						type: 'spring',
+						stiffness: 260,
+						damping: 20,
+					}}
+				>
+					<Subtitle text={"Where I've worked"} />
+					<div className={s.carouselWrapper}>
+						<Carousel />
+					</div>
+				</motion.div>
+			</AnimatePresence>
+		</ContentWrapper>
 	);
 };
 

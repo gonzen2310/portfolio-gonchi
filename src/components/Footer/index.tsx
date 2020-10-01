@@ -1,21 +1,22 @@
-import React from "react";
-import styles from "./styles.module.css";
-import heartIcon from "../../assets/heart-icon.svg";
-import SocialMedia from "../SocialMedia";
+import React from 'react';
+import s from './styles.module.scss';
+import heartIcon from '../../assets/heart-icon.svg';
+import SocialMedia from '../SocialMedia';
+import ContentWrapper from '../ContentWrapper';
 
 const Footer: React.FC = () => {
 	return (
-		<footer className={styles.footer}>
-			<div className={styles["footer-wrapper"]}>
-				<h1 className={styles["footer-logo"]}>
+		<ContentWrapper>
+			<footer className={s.footer}>
+				<h1 className={s.logo}>
 					Gonzalo<span>.</span>
 				</h1>
-				<p>
+				<p className={s.slogan}>
 					Made with <img src={heartIcon} alt="Heart icon" /> with ReactJS
 				</p>
 				<SocialMedia />
-			</div>
-		</footer>
+			</footer>
+		</ContentWrapper>
 	);
 };
 

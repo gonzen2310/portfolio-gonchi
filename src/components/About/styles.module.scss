@@ -1,0 +1,147 @@
+@import '../../styles/text';
+@import '../../styles/colors';
+@import '../../styles/breakpoints';
+
+.about {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 2rem;
+
+	.who {
+		display: flex;
+		flex-direction: column-reverse;
+		margin-bottom: 2rem;
+
+		.left {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.right {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 2rem;
+
+			.textContent {
+				font-weight: weight(light);
+				font-size: size($font-sizes-mobile, text);
+				line-height: 1.4rem;
+				margin-bottom: 1rem;
+
+				.yelp {
+					color: $yelp-red;
+					font-weight: weight(bold);
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	@include media('>=tablet') {
+		.who {
+			.right {
+				.textContent {
+					font-size: size($font-sizes-mobile, text);
+					line-height: 1.2rem;
+					width: 70%;
+				}
+			}
+		}
+	}
+
+	@include media('>=desktop') {
+		.who {
+			display: grid;
+			grid-template-columns: 5fr 7fr;
+			grid-column-gap: 3rem;
+
+			.right {
+				.textContent {
+					font-size: size($font-sizes-desktop, text);
+					line-height: 1.5rem;
+					width: 90%;
+				}
+
+				a {
+					margin-top: 2rem;
+				}
+			}
+		}
+	}
+}
+
+/* .about {
+	display: grid;
+	grid-template-columns: minmax(10vw, 1fr) minmax(0, 90rem) minmax(10vw, 1fr);
+}
+
+.container {
+	display: flex;
+	grid-column: 2;
+	margin: 4em auto;
+	padding: 1.2em 0;
+}
+
+.container div {
+	flex: 1 1;
+}
+
+.left-container,
+.right-container {
+	box-sizing: border-box;
+	padding: 0 4em;
+}
+
+.left-container img {
+	width: 80%;
+	max-width: 450px;
+}
+
+.right-container p {
+	text-align: left;
+	line-height: 24px;
+	font-size: 16px;
+	margin-bottom: 2em;
+}
+.right-container p img {
+	width: 30px;
+}
+
+@media only screen and (max-width: 1400px) {
+	.left-container {
+		padding: 0 2.5em;
+	}
+
+	.right-container {
+		padding: 0;
+	}
+
+	.left-container img {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.left-container,
+	.right-container {
+		box-sizing: border-box;
+		padding: 0;
+	}
+
+	.left-container img {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.left-container img {
+		width: 80%;
+	}
+} */

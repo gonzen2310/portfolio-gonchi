@@ -1,27 +1,20 @@
-import React, { useContext } from "react";
-import "./App.css";
+import React, { useContext } from 'react';
 
-import Landing from "./components/Landing";
-import Sections from "./components/Sections";
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import { NavigationContext, INavigation } from "./contexts/NavigationContext";
-import ExperienceContextProvider from "./contexts/ExperienceContext";
+import Landing from './components/Landing';
+import Sections from './components/Sections';
+import About from './components/About';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+import Experience from './components/Experience';
+import { NavigationContext, INavigation } from './contexts/NavigationContext';
 
 const renderSection = (section: string): React.ReactNode => {
-	console.log("SECITON", section)
 	switch (section) {
-		case "ABOUT":
+		case 'ABOUT':
 			return <About />;
-		case "EXPERIENCE":
-			return (
-				<ExperienceContextProvider>
-					<Experience />
-				</ExperienceContextProvider>
-			);
-		case "CONTACT":
+		case 'EXPERIENCE':
+			return <Experience />;
+		case 'CONTACT':
 			return <Contact />;
 		default:
 			return null;
@@ -32,7 +25,7 @@ const App: React.FC = () => {
 	const { section } = useContext<INavigation>(NavigationContext);
 
 	return (
-		<div className="App">
+		<div className="app">
 			<Landing />
 			<Sections />
 			{renderSection(section)}

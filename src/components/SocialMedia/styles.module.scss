@@ -1,0 +1,13 @@
+.socialmedia {
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+
+	.icon {
+		margin-right: 20px;
+	}
+
+	a:last-child .icon {
+		margin-right: 0px;
+	}
+}
