@@ -1,7 +1,13 @@
 @import '../../styles/text';
+@import '../../styles/breakpoints';
 
 .subtitle {
 	font-size: size($font-sizes-mobile, subtitle);
 	font-weight: weight(medium);
 	margin: 2rem 0 2.5rem 0;
+	text-align: center;
+
+	@include media('>=desktop') {
+		font-size: size($font-sizes-desktop, subtitle);
+	}
 }
