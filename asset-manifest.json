@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-gonchi/static/css/main.ae069cde.chunk.css",
+    "main.js": "/portfolio-gonchi/static/js/main.cbd40014.chunk.js",
+    "main.js.map": "/portfolio-gonchi/static/js/main.cbd40014.chunk.js.map",
+    "runtime-main.js": "/portfolio-gonchi/static/js/runtime-main.04cfa433.js",
+    "runtime-main.js.map": "/portfolio-gonchi/static/js/runtime-main.04cfa433.js.map",
+    "static/js/2.5c5e94df.chunk.js": "/portfolio-gonchi/static/js/2.5c5e94df.chunk.js",
+    "static/js/2.5c5e94df.chunk.js.map": "/portfolio-gonchi/static/js/2.5c5e94df.chunk.js.map",
+    "index.html": "/portfolio-gonchi/index.html",
+    "static/css/main.ae069cde.chunk.css.map": "/portfolio-gonchi/static/css/main.ae069cde.chunk.css.map",
+    "static/js/2.5c5e94df.chunk.js.LICENSE.txt": "/portfolio-gonchi/static/js/2.5c5e94df.chunk.js.LICENSE.txt",
+    "static/media/about-icon.8ff42559.svg": "/portfolio-gonchi/static/media/about-icon.8ff42559.svg",
+    "static/media/about-photo.7c4a5a83.png": "/portfolio-gonchi/static/media/about-photo.7c4a5a83.png",
+    "static/media/arrow-left.02bbfb97.svg": "/portfolio-gonchi/static/media/arrow-left.02bbfb97.svg",
+    "static/media/arrow-right.7e33c2b8.svg": "/portfolio-gonchi/static/media/arrow-right.7e33c2b8.svg",
+    "static/media/contact-icon.74dc4b52.svg": "/portfolio-gonchi/static/media/contact-icon.74dc4b52.svg",
+    "static/media/experience-icon.8a0205f0.svg": "/portfolio-gonchi/static/media/experience-icon.8a0205f0.svg",
+    "static/media/facebook-ic.062586f0.svg": "/portfolio-gonchi/static/media/facebook-ic.062586f0.svg",
+    "static/media/github-ic.fe4a892f.svg": "/portfolio-gonchi/static/media/github-ic.fe4a892f.svg",
+    "static/media/gmail-ic.30272126.svg": "/portfolio-gonchi/static/media/gmail-ic.30272126.svg",
+    "static/media/hand-icon.c5ca856e.svg": "/portfolio-gonchi/static/media/hand-icon.c5ca856e.svg",
+    "static/media/heart-icon.1c58797c.svg": "/portfolio-gonchi/static/media/heart-icon.1c58797c.svg",
+    "static/media/instagram-ic.33d5be15.svg": "/portfolio-gonchi/static/media/instagram-ic.33d5be15.svg",
+    "static/media/landing-img.190f3ad0.svg": "/portfolio-gonchi/static/media/landing-img.190f3ad0.svg",
+    "static/media/linkedin-ic.23760c61.svg": "/portfolio-gonchi/static/media/linkedin-ic.23760c61.svg",
+    "static/media/resume-gonzalo-reyes.b3c27cf1.pdf": "/portfolio-gonchi/static/media/resume-gonzalo-reyes.b3c27cf1.pdf",
+    "static/media/rocket-img.e730b913.svg": "/portfolio-gonchi/static/media/rocket-img.e730b913.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04cfa433.js",
+    "static/js/2.5c5e94df.chunk.js",
+    "static/css/main.ae069cde.chunk.css",
+    "static/js/main.cbd40014.chunk.js"
+  ]
+}
